@@ -10,7 +10,7 @@ Site: [slima.ai](https://slima.ai) · App: app.slima.ai
 ## How this repo is organized
 
 ```
-slima_truth/
+slima-brand-hub/
 ├── brand/            ← START HERE. Who Slima is + how it looks and sounds
 │   ├── 01-brand-guidelines.md         Positioning, audience, 3 pillars, VOICE & TONE, visual system
 │   ├── 02-product-marketing-context.md Product/marketing brief
