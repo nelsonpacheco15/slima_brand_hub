@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slima, motion ad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="preview.css?v=13">
+<style>
+  body{background:#cfcfcf;margin:0;font-family:var(--sans)}
+  .stage{width:1080px;height:1920px;background:#fff;position:relative;overflow:hidden;margin:0 auto;display:flex;flex-direction:column;padding:96px 90px 84px}
+  .top{display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:14px;font-family:var(--serif);font-weight:500;font-size:50px}
+  .brand .m{width:42px;height:42px}.brand .tld{font-family:var(--sans);font-size:24px;color:var(--ink4);margin-left:-6px}
+  .try{font-family:var(--serif);font-size:30px}
+  .vstage{flex:1;display:flex;align-items:center;justify-content:center}
+  .visbox{width:760px;opacity:0;transform:translateY(26px) scale(.97);transition:opacity .8s ease,transform .8s ease}
+  .visbox.in{opacity:1;transform:none}
+  .copy{opacity:0;transform:translateY(22px);transition:opacity .8s ease .1s,transform .8s ease .1s}
+  .copy.in{opacity:1;transform:none}
+  .copy h1{font-family:var(--serif);font-weight:500;font-size:92px;line-height:1.03;letter-spacing:-.02em;margin:0}
+  .copy h1 em{font-style:italic}
+  .copy .sub{font-family:var(--serif);font-size:42px;color:var(--ink3);margin-top:26px}
+  .foot{display:flex;align-items:center;justify-content:space-between;margin-top:48px;font-family:var(--serif)}
+  .foot .b{display:flex;align-items:center;gap:14px;font-size:36px}.foot .b .m{width:36px;height:36px}
+  .foot .u{font-size:28px;color:var(--ink4)}
+</style>
+<!-- seo:meta -->
+<meta name="robots" content="noindex,follow">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Slima">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Slima, motion ad">
+<meta property="og:description" content="Slima — the writing studio for long projects.">
+<meta property="og:url" content="https://slima.ai/en/motion">
+<meta property="og:image" content="https://slima.ai/logo-slima.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@slima_ai">
+<meta name="twitter:title" content="Slima, motion ad">
+<meta name="twitter:description" content="Slima — the writing studio for long projects.">
+<meta name="twitter:image" content="https://slima.ai/logo-slima.png">
+</head>
+<body>
+<div class="stage">
+  <div class="top"><span class="brand"><span class="m"></span>Slima<span class="tld">.ai</span></span><span class="try">Try it free</span></div>
+  <div class="vstage"><div class="visbox"><div class="fpanel"><div class="fscreen sq"></div></div></div></div>
+  <div class="copy"><h1></h1><div class="sub"></div></div>
+  <div class="foot"><span class="b"><span class="m"></span>Slima</span><span class="u">app.slima.ai</span></div>
+</div>
+
+<script>
+  var MARK='<svg viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg"><path fill="#0a0a0a" d="M58.8,38.61l39.68-15.07c.8.6,1.56,1.48,1.93,2.42.29.74.76,2.23.2,2.84l-33.5,18.01c.1.24,2.21.66,2.64.76,14.6,3.43,29.37,6.15,44.07,9.15.21.03.34.13.46.3.83,1.19.46,6.42-1.4,6.51-14.91-1.43-29.87-2.4-44.82-3.41l35.8,35.91c-.58,2.36-2.53,5.23-5.18,5.09l-22.15-17.11-17.15-12.38c3.09,15.53,6.74,30.93,10.38,46.34.18.79-.66,1.53-1.26,1.94-1.23.83-4.84,1.91-5.77.36-5.52-15.48-10.88-31.03-17.23-46.18-5.16,13.04-9.74,26.31-14.46,39.51-1.02,1.62-5.36.05-6.25-1.44l9.86-45.05-13.19,9.74-14.41,11.25c-1.63.83-4.72-2.86-3.67-4.14,9.4-8.83,18.66-17.83,27.49-27.23l-27.47,2.24c-1.3-.04-1.75-2.99-1.11-3.93l31.22-6.9-20.63-10.69c-1.44-.53-.12-3.03.81-3.29l23.97,8.98-11.48-20.62c.15-.75,2.19-2.19,2.88-1.26,3.24,4.56,6.44,9.14,9.77,13.63,1.05,1.41,2.18,3.11,3.31,4.42.12.14,0,.36.43.24l1.89-27.64c1.05-.77,3.12-.77,3.35.79.49,7.91.8,15.84,1.37,23.74.02.28-.15.55.28.47,3.35-4.45,6.77-8.85,10.06-13.34,3.49-4.75,6.85-9.66,10.36-14.37,1.23-.38,4.13,1.48,3.56,2.99-4.1,7.49-8.52,14.82-12.59,22.33-.23.43-2.2,3.92-2.04,4.09Z"/></svg>';
+  document.querySelectorAll('.m').forEach(function(e){e.innerHTML=MARK;});
+
+  var MSGS={
+    feedback:{
+      h:'Where do readers <em>give up?</em>', sub:"Now you'll know, chapter by chapter.",
+      mock:'<div class="mock"><div class="m-h">Reader report</div><div class="m-sub">Attention curve · stop-reading risk</div><div class="bt-curve"><span class="bt-chip">stopped reading</span><svg viewBox="0 0 320 140" preserveAspectRatio="none"><path class="ln" pathLength="1" d="M10,46 C70,30 110,34 150,68 C195,108 245,118 310,122"/><circle r="6" fill="#d0463a"><animateMotion dur="3.4s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.7;1" calcMode="linear" path="M10,46 C70,30 110,34 150,68 C195,108 245,118 310,122"/></circle></svg></div><div class="bt-readers"><div class="bt-r"><span class="nm">Alex</span><span class="tk"><span class="fl" style="width:78%"></span></span><span class="vv">7.8</span></div><div class="bt-r"><span class="nm">Victoria</span><span class="tk"><span class="fl" style="width:60%;animation-delay:.2s"></span></span><span class="vv">6.0</span></div><div class="bt-r"><span class="nm">Olivia</span><span class="tk"><span class="fl" style="width:42%;background:var(--amber);animation-delay:.4s"></span></span><span class="vv">4.2</span></div></div></div>'
+    },
+    memory:{
+      h:'It read <em>every chapter.</em>', sub:'It catches the slip you would never spot.',
+      mock:'<div class="mock"><div class="m-h">Continuity check</div><div class="m-sub">Across all 40 chapters</div><div class="mem-beam"></div><div class="mem-list"><div class="mem-row"><span class="d">✓</span> Elena\'s eyes, green <em>ch. 2</em></div><div class="mem-row warn"><span class="d w">!</span> Marcus: teacher to lawyer <em>ch. 7</em></div><div class="mem-row"><span class="d">✓</span> Timeline consistent <em>Mar–Sept</em></div><div class="mem-row"><span class="d">✓</span> Locket set up before payoff <em>ch. 9</em></div></div></div>'
+    },
+    version:{
+      h:'<em>Version control</em><br>for your story.', sub:'Rewrite boldly. Never lose a word.',
+      mock:'<div class="mock"><div class="m-h">Chapter 12 · versions</div><div class="m-sub">Branch · snapshot · restore</div><div class="vc"><div class="vc-spine"></div><div class="vc-pulse"></div><div class="vc-row main"><span class="vc-node"></span><span class="vc-lbl">Current draft</span><span class="vc-tag main">main</span></div><div class="vc-row"><span class="vc-node"></span><span class="vc-lbl">Darker ending</span><span class="vc-tag">branch</span></div><div class="vc-row"><span class="vc-node"></span><span class="vc-lbl">First-person POV</span><span class="vc-tag">branch</span></div><div class="vc-row"><span class="vc-node"></span><span class="vc-lbl">v3, before the cut</span><span class="vc-tag snap">snapshot</span></div></div></div>'
+    }
+  };
+  var key=new URLSearchParams(location.search).get('m')||'feedback';
+  var cfg=MSGS[key]||MSGS.feedback;
+  var fscreen=document.querySelector('.fscreen');
+  var visbox=document.querySelector('.visbox');
+  var copy=document.querySelector('.copy');
+  document.querySelector('.copy h1').innerHTML=cfg.h;
+  document.querySelector('.copy .sub').textContent=cfg.sub;
+
+  function play(){
+    fscreen.innerHTML=cfg.mock;             // reinsert -> CSS animations restart from 0
+    visbox.classList.remove('in'); copy.classList.remove('in');
+    void document.querySelector('.stage').offsetWidth;
+    setTimeout(function(){ visbox.classList.add('in'); var m=fscreen.querySelector('.mock'); if(m)m.classList.add('play'); },150);
+    setTimeout(function(){ copy.classList.add('in'); },1300);
+  }
+  play();
+  setInterval(play, 6500);
+</script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help Center — Slima Docs and Guides</title>
+<meta name="description" content="An operation manual for every part of Slima, from your first project to the last export. Search the guides or browse by topic.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&family=IBM+Plex+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="preview.css?v=13">
+<link rel="stylesheet" href="assemble.css?v=13">
+<style>
+  /* docs search input, in the assemble language */
+  .dsearch{max-width:560px;margin:8px auto 0;display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;box-shadow:0 10px 30px -20px rgba(0,0,0,.2)}
+  .dsearch svg{width:20px;height:20px;color:var(--ink4);flex-shrink:0}
+  .dsearch input{flex:1;border:0;outline:0;background:transparent;font:inherit;font-size:15px;color:var(--ink);min-width:0}
+  .dsearch input::placeholder{color:var(--ink4)}
+  /* popular guides row */
+  .pop{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  @media(max-width:720px){.pop{grid-template-columns:1fr}}
+  .pop a{display:flex;align-items:center;gap:13px;padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:13px;font-size:14.5px;color:var(--ink2);transition-property:transform,box-shadow,color;transition-duration:.18s}
+  .pop a:hover{transform:translateY(-2px);box-shadow:0 16px 34px -26px rgba(0,0,0,.25);color:var(--ink)}
+  .pop a .pn{font-family:var(--serif);color:var(--ink4);font-size:13px;width:20px;flex-shrink:0}
+  /* sub-topic link list inside the section cards */
+  .a-card .links{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:14px}
+  .a-card .links a{font-size:13.5px;color:var(--ink2);display:inline-flex;gap:7px}
+  .a-card .links a:hover{color:var(--indigo)}
+  .a-card .links a::before{content:"›";color:var(--ink4)}
+  .dnone{display:none}
+</style>
+<!-- seo:meta -->
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://slima.ai/en/docs">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Slima">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Help Center — Slima Docs and Guides">
+<meta property="og:description" content="An operation manual for every part of Slima, from your first project to the last export. Search the guides or browse by topic.">
+<meta property="og:url" content="https://slima.ai/en/docs">
+<meta property="og:image" content="https://slima.ai/logo-slima.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@slima_ai">
+<meta name="twitter:title" content="Help Center — Slima Docs and Guides">
+<meta name="twitter:description" content="An operation manual for every part of Slima, from your first project to the last export. Search the guides or browse by topic.">
+<meta name="twitter:image" content="https://slima.ai/logo-slima.png">
+</head>
+<body class="a"><div id="site-nav"></div>
+
+<!-- ===== HERO ===== -->
+<section class="a-hero">
+  <div class="hero-bg" aria-hidden="true"><video autoplay muted loop playsinline preload="auto"><source src="hero-loop.mp4" type="video/mp4"></video><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="hero-glass"></div><div class="hero-grain"></div></div>
+  <div class="aw">
+    <span class="eb rv">Help Center</span>
+    <h1 class="a-h1 rv d1">Find your <em>way around.</em></h1>
+    <p class="sub rv d2">An operation manual for every part of Slima, from your first project to the last export.</p>
+    <form class="dsearch rv d3" onsubmit="return false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="dsearch" type="search" placeholder="Search the docs…" autocomplete="off" aria-label="Search the docs">
+    </form>
+  </div>
+</section>
+
+<!-- ===== POPULAR GUIDES ===== -->
+<section class="sec-pad" style="padding-top:clamp(56px,7vw,80px)"><div class="aw">
+  <div class="a-head rv" style="margin-bottom:32px"><span class="lab">Popular guides</span><h2>Start with the <em>most-read pages.</em></h2></div>
+  <div class="pop rv d1">
+    <a href="docs-article.html"><span class="pn">1</span> Create your first project and start writing</a>
+    <a href="docs-article.html"><span class="pn">2</span> Ask the coach a question about your book</a>
+    <a href="docs-article.html"><span class="pn">3</span> Run your first reader report</a>
+    <a href="docs-article.html"><span class="pn">4</span> Connect Slima to Claude or Cursor over MCP</a>
+    <a href="docs-article.html"><span class="pn">5</span> Restore an earlier draft from a snapshot</a>
+    <a href="docs-article.html"><span class="pn">6</span> Export to PDF, EPUB, Word, or Final Draft</a>
+  </div>
+</div></section>
+
+<!-- ===== BROWSE BY TOPIC ===== -->
+<section class="sec-pad" style="padding-top:0"><div class="aw">
+  <div class="a-head rv"><span class="lab">Browse by topic</span><h2>Nine sections, <em>everything covered.</em></h2><p>Pick a corner of Slima and read the guides that live there.</p></div>
+  <div class="a-cards c3">
+
+    <div class="a-card dcard rv"><div class="ic">✦</div><h3>Getting started</h3><p>Open Slima for the first time and find your footing.</p>
+      <ul class="links"><li><a href="docs-article.html">Create your first project</a></li><li><a href="docs-article.html">Pick a studio</a></li><li><a href="docs-article.html">The five-step onboarding</a></li><li><a href="docs-article.html">Import an existing draft</a></li></ul></div>
+
+    <div class="a-card dcard rv d1"><div class="ic">👤</div><h3>Account &amp; profile</h3><p>Your account, subscription, credits, and privacy.</p>
+      <ul class="links"><li><a href="docs-article.html">Account overview</a></li><li><a href="docs-article.html">Manage your subscription</a></li><li><a href="docs-article.html">How credits work</a></li><li><a href="docs-article.html">Notifications &amp; preferences</a></li></ul></div>
+
+    <div class="a-card dcard rv d2"><div class="ic">✍️</div><h3>Writing Studio</h3><p>The editor, the coach, and everything for long-form books.</p>
+      <ul class="links"><li><a href="docs-article.html">The editor and project tree</a></li><li><a href="docs-article.html">Ask the coach about your book</a></li><li><a href="docs-article.html">Snapshots and version history</a></li><li><a href="docs-article.html">Goals, streaks, and motivation</a></li></ul></div>
+
+    <div class="a-card dcard rv"><div class="ic">🎬</div><h3>Script Studio</h3><p>Series, season, episode, scene, and industry export.</p>
+      <ul class="links"><li><a href="docs-article.html">Structure a series</a></li><li><a href="docs-article.html">The scene board</a></li><li><a href="docs-article.html">Character bible and storylines</a></li><li><a href="docs-article.html">Export to Final Draft and Fountain</a></li></ul></div>
+
+    <div class="a-card dcard rv d1"><div class="ic">👥</div><h3>Beta Readers</h3><p>Run a reader report and read the results.</p>
+      <ul class="links"><li><a href="docs-article.html">How a read works</a></li><li><a href="docs-article.html">Choose your readers</a></li><li><a href="docs-article.html">Read the attention curve and scores</a></li><li><a href="docs-article.html">Retries and edge cases</a></li></ul></div>
+
+    <div class="a-card dcard rv d2"><div class="ic">🔌</div><h3>Slima MCP</h3><p>Connect Claude, Cursor, Gemini, and VS Code to your projects.</p>
+      <ul class="links"><li><a href="docs-article.html">What MCP is, and the two ways to connect</a></li><li><a href="docs-article.html">Connect over the web</a></li><li><a href="docs-article.html">Connect Cursor or VS Code locally</a></li><li><a href="docs-article.html">Tokens and authorized apps</a></li></ul></div>
+
+    <div class="a-card dcard rv"><div class="ic">📱</div><h3>Apps &amp; sync</h3><p>Web, desktop, mobile, offline, and many devices.</p>
+      <ul class="links"><li><a href="docs-article.html">Install the desktop app</a></li><li><a href="docs-article.html">Write offline and sync later</a></li><li><a href="docs-article.html">Work across multiple devices</a></li><li><a href="docs-article.html">Progressive web app on mobile</a></li></ul></div>
+
+    <div class="a-card dcard rv d1"><div class="ic">💳</div><h3>Plans &amp; billing</h3><p>Subscriptions, upgrades, credits, and invoices.</p>
+      <ul class="links"><li><a href="pricing.html">How the plans work</a></li><li><a href="docs-article.html">Upgrade or downgrade</a></li><li><a href="docs-article.html">Top up and track credits</a></li><li><a href="docs-article.html">Find your invoices</a></li></ul></div>
+
+    <div class="a-card dcard rv d2"><div class="ic">🛟</div><h3>Troubleshooting &amp; privacy</h3><p>Recover a draft, understand privacy, and look up a term.</p>
+      <ul class="links"><li><a href="docs-article.html">Recover a lost draft</a></li><li><a href="privacy.html">Your data and privacy</a></li><li><a href="docs-article.html">Report an issue</a></li><li><a href="docs-article.html">Glossary of terms</a></li></ul></div>
+
+  </div>
+</div></section>
+
+<!-- ===== STILL STUCK ===== -->
+<section class="sec-pad" style="padding-top:0"><div class="aw">
+  <div class="a-head rv"><span class="lab">Still stuck</span><h2>When the docs run out, <em>a person picks up.</em></h2><p>No bots, no ticket queue you never hear back from.</p></div>
+  <div class="a-cards c2">
+    <div class="a-card rv"><div class="ic">✉️</div><h3>Write to a human</h3><p>Email us and a real person answers, usually within a day. Tell us what you were trying to do and we will dig in.</p>
+      <ul class="links"><li><a href="contact.html">Contact us</a></li></ul></div>
+    <div class="a-card rv d1"><div class="ic">💬</div><h3>Join the Discord</h3><p>Trade workflows, ask other writers how they finished, and hear about new features first.</p>
+      <ul class="links"><li><a href="https://discord.gg/slima" target="_blank" rel="noopener">Open Discord</a></li></ul></div>
+  </div>
+</div></section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="sec-pad" style="padding-top:0"><div class="aw">
+  <div class="a-final">
+    <h2 class="rv">The fastest answer is <em>a finished page.</em></h2>
+    <p class="rv d1" style="font-size:17px;color:var(--ink3);margin-bottom:30px">Read when you are stuck, write the rest of the time. Open a project free.</p>
+    <div class="a-cta rv d2"><a class="btn btn-dark" href="https://app.slima.ai">Start writing free <svg class="arrow" viewBox="0 0 14 14" fill="none"><path d="M2.5 7h9M8 3.5l3.5 3.5L8 10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="btn btn-ghost" href="contact.html">Talk to a human</a></div>
+  </div>
+</div></section>
+
+<div id="site-footer"></div>
+<script src="site.js?v=13"></script>
+<script src="assemble.js?v=13"></script>
+<script>
+(function(){
+  var input=document.getElementById('dsearch');
+  if(!input) return;
+  var cards=Array.prototype.slice.call(document.querySelectorAll('.dcard'));
+  input.addEventListener('input',function(){
+    var q=input.value.trim().toLowerCase();
+    cards.forEach(function(c){
+      var hit = !q || c.textContent.toLowerCase().indexOf(q)>-1;
+      c.classList.toggle('dnone', !hit);
+    });
+  });
+})();
+</script>
+</body>
+</html>

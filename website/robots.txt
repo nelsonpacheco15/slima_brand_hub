@@ -1,0 +1,90 @@
+# Robots.txt for Slima
+# https://slima.ai
+# See also /llms.txt for an AI-friendly content index.
+
+User-agent: *
+Allow: /
+
+# Internal areas — never indexed
+Disallow: /admin/
+Disallow: /admin
+Disallow: /assets/
+Disallow: /rails/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://slima.ai/sitemap.xml
+
+# ─────────────────────────────────────────────────────────────────
+# AI / LLM crawlers — explicitly allowed.
+# Order: training-data bots, then AI search / answer bots.
+# ─────────────────────────────────────────────────────────────────
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Google (separate from regular Googlebot)
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Apple Intelligence / Apple AI
+User-agent: Applebot-Extended
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Common Crawl — training data source for many LLMs
+User-agent: CCBot
+Allow: /
+
+# Amazon
+User-agent: Amazonbot
+Allow: /
+
+# DuckDuckGo AI
+User-agent: DuckAssistBot
+Allow: /
+
+# ByteDance
+User-agent: Bytespider
+Allow: /
+
+# Cohere
+User-agent: Cohere-AI
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /

@@ -1,0 +1,89 @@
+# Slima
+
+> Slima is an AI-powered writing IDE for novelists, screenwriters, and long-form storytellers. Two product lines share one editor: a Writing Studio for prose, a Script Studio for screenplays, plus an AI Beta Reader that simulates real reader feedback across the whole manuscript. The mission: be a mentor that has read every word of your book, not a generator that writes it for you.
+
+## What Slima is
+
+Slima is a writing application, not an AI-content generator. Authors keep full creative control. The AI is given the whole manuscript as context, so coaching, critique, and beta-reader feedback are grounded in what the writer actually wrote — not invented prose.
+
+- Available on web, iOS, and Android (PWA-installable)
+- Free tier is the full editor, cloud sync, version control, multi-format export — limited only by 2 concurrent books
+- Paid tiers (Starter $9/mo, Pro $19/mo, Team $49/mo) unlock unlimited books and AI Coach / Beta Reader usage
+- Languages: English, Traditional Chinese, Arabic, Spanish, Korean
+- Company: Slima · service@slima.ai · Discord https://discord.gg/vBh9c7ErXv
+
+## Core products
+
+- [Writing Studio](https://slima.ai/en/writing-studio): Prose-first editor with version control, snapshots, cloud sync, offline mode, full-book memory for the AI coach, and DOCX/EPUB/Markdown export.
+- [Script Studio](https://slima.ai/en/script-studio): Dual-format screenplay editor (Fountain + FDX), corkboard scene board, character bible, structure templates.
+- [AI Beta Reader](https://slima.ai/en/beta-reader): Eight reader-archetype personas + structured editorial passes. The AI reads the whole manuscript and reports on plot logic, pacing, character, theme, and Kindle-score publishability.
+- [MCP](https://slima.ai/en/mcp): Model Context Protocol integration so Claude, ChatGPT, and other MCP-capable LLMs can read and write files in a Slima book directly.
+
+## Plans & pricing (USD, global)
+
+- [Plans page](https://slima.ai/en/plans): Pricing details and tier comparison.
+- Free: $0 — full editor, up to 2 books, no credit card.
+- Starter: $9/mo ($90/yr) — unlimited books, AI Coach, Beta Reader reports.
+- Pro: $19/mo ($190/yr) — 3× AI usage, 3× reports, doubled word ceiling.
+- Team: $49/mo ($490/yr) — 5 seats, shared reports pool.
+
+## Philosophy & policies
+
+- AI is a mentor that has read every word of your book — not a generator. The author makes every creative decision.
+- Manuscripts are encrypted at rest, scoped to the author's account, never used for model training.
+- Export every chapter as DOCX or Markdown at any time, with version history attached. The work travels with the author.
+
+## Audience-targeted landing pages
+
+- [For Authors](https://slima.ai/en/for/authors): Novelists shipping book-length fiction.
+- [For Engineers](https://slima.ai/en/for/engineers): Software engineers writing technical books or memoirs.
+- [For Creators](https://slima.ai/en/for/creators): YouTubers, podcasters, newsletter writers turning content into a book.
+- [For Researchers](https://slima.ai/en/for/researchers): Academics and analysts writing thesis-length nonfiction.
+- [For Teams](https://slima.ai/en/for/teams): Co-author and ghostwriter teams.
+- [For Ghostwriters](https://slima.ai/en/for/ghostwriters): Professional ghostwriters delivering client manuscripts.
+
+## Resources
+
+- [Resources Hub](https://slima.ai/en/resources): Long-form articles on narratology, AI philosophy, craft, and writer interviews.
+- [Help Center / Docs](https://slima.ai/en/docs): How-to articles, IDE shortcuts, AI analysis recipes, troubleshooting.
+
+## Comparisons & alternatives
+
+- [Best Novel Writing Software in 2026](https://slima.ai/en/best-novel-writing-software): Honest comparison of Slima, Scrivener, Sudowrite, NovelCrafter, Dabble, and NovelAI, with who each is best for.
+- [Scrivener Alternative](https://slima.ai/en/scrivener-alternative): A cloud-native Scrivener alternative with an AI coach that has read the whole book and automatic continuity checks.
+- [Slima vs Sudowrite](https://slima.ai/en/slima-vs-sudowrite): Full-book memory and continuity checking vs Sudowrite's manual Story Bible.
+- [Sudowrite Alternative](https://slima.ai/en/sudowrite-alternative): For writers who want memory, continuity, and feedback, plus a free plan.
+- [Slima vs NovelCrafter](https://slima.ai/en/slima-vs-novelcrafter): Automatic continuity and native MCP vs NovelCrafter's manual Codex and bring-your-own-API-key setup.
+- [NovelAI Alternative](https://slima.ai/en/novelai-alternative): Full-manuscript memory with no character amnesia, built for finishing a real book.
+- [Final Draft Alternative](https://slima.ai/en/final-draft-alternative): Screenwriting with series/episode structure, a scene board, an AI coach, and Final Draft (FDX) + Fountain export.
+- [Notion vs Obsidian for Research](https://slima.ai/en/notion-vs-obsidian-for-research): Databases vs backlinks for notes, plus the writing-and-memory layer neither gives a long academic document.
+
+## Feature pages
+
+- [AI Continuity Checker](https://slima.ai/en/ai-continuity-checker): Reads the whole novel and flags contradictions (eye colour, backstory, timeline) before readers do.
+- [AI Novel Writing Software](https://slima.ai/en/ai-novel-writing-software): Full-book memory; a coach that has read every chapter and never forgets the story.
+
+## Guides
+
+- [How to Organize a Novel](https://slima.ai/en/how-to-organize-a-novel): Chapters, characters, timeline, and research in one place.
+- [How to Keep Track of Characters in a Novel](https://slima.ai/en/how-to-keep-track-of-characters-in-a-novel): Character sheets, story bible, and continuity across a whole book.
+- [How to Get Feedback on Your Novel](https://slima.ai/en/how-to-get-feedback-on-your-novel): Beta readers, critique partners, and AI reader reports.
+- [How to Finish Writing a Book](https://slima.ai/en/how-to-finish-writing-a-book): Beating the sagging middle and keeping momentum to the end.
+- [How to Write a TV Series Bible](https://slima.ai/en/how-to-write-a-tv-series-bible): Logline, world, characters, season arcs, and episode breakdowns.
+- [How to Outline a Screenplay](https://slima.ai/en/how-to-outline-a-screenplay): From logline and beat sheet to a scene board you can write from.
+- [How to Organize Research for a Thesis](https://slima.ai/en/how-to-organize-research-for-a-thesis): Sources, notes, and chapters in one place, alongside a reference manager.
+- [How to Structure a Dissertation](https://slima.ai/en/how-to-structure-a-dissertation): The standard chapter order and how to keep one long argument coherent.
+
+## Company
+
+- [About](https://slima.ai/en/about): The team and the story behind the editor.
+- [Contact](https://slima.ai/en/contact): Email service@slima.ai or join Discord.
+- [Partners](https://slima.ai/en/partners): Writing programs, schools, and platforms working with Slima.
+- [Terms of Service](https://slima.ai/en/terms)
+- [Privacy Policy](https://slima.ai/en/privacy)
+
+## Other entry points
+
+- App: https://app.slima.ai
+- Discord community: https://discord.gg/vBh9c7ErXv
+- Customer support: service@slima.ai

@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}video{width:100vw;height:100vh;object-fit:contain;display:block}</style><!-- seo:meta -->
+<meta name="robots" content="noindex,follow">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Slima">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Slima">
+<meta property="og:description" content="Slima — the writing studio for long projects.">
+<meta property="og:url" content="https://slima.ai/en/viewer">
+<meta property="og:image" content="https://slima.ai/logo-slima.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@slima_ai">
+<meta name="twitter:title" content="Slima">
+<meta name="twitter:description" content="Slima — the writing studio for long projects.">
+<meta name="twitter:image" content="https://slima.ai/logo-slima.png">
+</head>
+<body>
+<video id="v" src="slima-campaign.mp4" muted playsinline preload="auto"></video>
+<script>
+  var v=document.getElementById('v');
+  var t=parseFloat(new URLSearchParams(location.search).get('t')||'8');
+  function seek(){ v.currentTime=t; }
+  v.addEventListener('loadeddata', seek);
+  v.addEventListener('canplay', seek);
+</script>
+</body></html>

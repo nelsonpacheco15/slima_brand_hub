@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Changelog — What's New in Slima</title>
+<meta name="description" content="Every update to Slima: new features, improvements, and fixes for the writing studio, AI coach, beta readers, and Script Studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&family=IBM+Plex+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="preview.css?v=13">
+<link rel="stylesheet" href="assemble.css?v=13">
+<style>
+  /* changelog timeline */
+  .cl-line{max-width:760px;margin:0 auto;position:relative}
+  .cl-line::before{content:"";position:absolute;left:7px;top:10px;bottom:10px;width:2px;background:var(--line)}
+  @media(max-width:640px){.cl-line::before{display:none}}
+  .cl-item{position:relative;padding:0 0 40px 40px}
+  .cl-item:last-child{padding-bottom:0}
+  .cl-item::before{content:"";position:absolute;left:1px;top:6px;width:16px;height:16px;border-radius:50%;background:#fff;border:2px solid var(--line)}
+  .cl-item.is-new::before{border-color:var(--green)}
+  .cl-item.is-improved::before{border-color:var(--indigo)}
+  @media(max-width:640px){.cl-item{padding-left:0}.cl-item::before{display:none}}
+  .cl-when{font-size:12px;font-weight:500;letter-spacing:.06em;color:var(--ink4);text-transform:uppercase}
+  .cl-pill{display:inline-block;font-size:11px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;padding:3px 11px;border-radius:999px;margin:12px 0 12px}
+  .cl-pill.new{background:rgba(78,168,122,.14);color:#2f7d57}
+  .cl-pill.improved{background:rgba(99,102,241,.12);color:#4b46b7}
+  .cl-pill.fixed{background:var(--soft);color:var(--ink4);border:1px solid var(--line)}
+  .cl-item h3{font-family:var(--serif);font-weight:400;font-size:23px;line-height:1.2;color:var(--ink);margin:0 0 8px}
+  .cl-item p{font-size:15.5px;color:var(--ink3);line-height:1.6;max-width:60ch}
+</style>
+<!-- seo:meta -->
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://slima.ai/en/changelog">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Slima">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Changelog — What's New in Slima">
+<meta property="og:description" content="Every update to Slima: new features, improvements, and fixes for the writing studio, AI coach, beta readers, and Script Studio.">
+<meta property="og:url" content="https://slima.ai/en/changelog">
+<meta property="og:image" content="https://slima.ai/logo-slima.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@slima_ai">
+<meta name="twitter:title" content="Changelog — What's New in Slima">
+<meta name="twitter:description" content="Every update to Slima: new features, improvements, and fixes for the writing studio, AI coach, beta readers, and Script Studio.">
+<meta name="twitter:image" content="https://slima.ai/logo-slima.png">
+</head>
+<body class="a"><div id="site-nav"></div>
+
+<!-- ===== HERO ===== -->
+<section class="a-hero">
+  <div class="hero-bg" aria-hidden="true"><video autoplay muted loop playsinline preload="auto"><source src="hero-loop.mp4" type="video/mp4"></video><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><div class="hero-glass"></div><div class="hero-grain"></div></div>
+  <div class="aw">
+    <span class="eb rv">Changelog</span>
+    <h1 class="a-h1 rv d1">What's <em>new in Slima.</em></h1>
+    <p class="sub rv d2">Every improvement, in plain language. Small updates, often.</p>
+  </div>
+</section>
+
+<!-- ===== TIMELINE ===== -->
+<section class="sec-pad"><div class="aw">
+  <div class="cl-line">
+
+    <div class="cl-item is-new rv">
+      <div class="cl-when">Jun 18, 2026</div>
+      <span class="cl-pill new">New</span>
+      <h3>A stopped-reading score in every report</h3>
+      <p>Reader reports now show a single clear read on how likely a chapter is to lose people, alongside the attention curve.</p>
+    </div>
+
+    <div class="cl-item is-improved rv d1">
+      <div class="cl-when">Jun 2, 2026</div>
+      <span class="cl-pill improved">Improved</span>
+      <h3>Compare two drafts side by side</h3>
+      <p>Open any branch next to your current draft and see exactly what changed, line by line, before you merge or restore.</p>
+    </div>
+
+    <div class="cl-item is-new rv d2">
+      <div class="cl-when">May 14, 2026</div>
+      <span class="cl-pill new">New</span>
+      <h3>Slima MCP: connect Claude and Cursor</h3>
+      <p>Read and write your whole project from the tools you already use, over an open standard.</p>
+    </div>
+
+    <div class="cl-item is-new rv">
+      <div class="cl-when">Apr 28, 2026</div>
+      <span class="cl-pill new">New</span>
+      <h3>Eight reader personas</h3>
+      <p>Each reader now reads with a distinct taste, from the plot-hole hunter to the impatient skimmer, so feedback feels like a real room.</p>
+    </div>
+
+    <div class="cl-item is-improved rv d1">
+      <div class="cl-when">Apr 9, 2026</div>
+      <span class="cl-pill improved">Improved</span>
+      <h3>Faster full-project recall</h3>
+      <p>The coach now pulls context from across a long project noticeably faster, even past 100,000 words.</p>
+    </div>
+
+    <div class="cl-item rv d2">
+      <div class="cl-when">Mar 21, 2026</div>
+      <span class="cl-pill fixed">Fixed</span>
+      <h3>Snapshot restore kept formatting</h3>
+      <p>Restoring an older snapshot now preserves headings and scene breaks exactly as they were.</p>
+    </div>
+
+  </div>
+</div></section>
+
+<!-- ===== FINAL CTA ===== -->
+<section class="sec-pad"><div class="aw">
+  <div class="a-final">
+    <h2 class="rv">Come build it <em>with us.</em></h2>
+    <p class="rv d1" style="font-size:17px;color:var(--ink3);margin-bottom:30px">Start free and tell us what your project needs next.</p>
+    <div class="a-cta rv d2"><a class="btn btn-dark" href="https://app.slima.ai">Start writing free <svg class="arrow" viewBox="0 0 14 14" fill="none"><path d="M2.5 7h9M8 3.5l3.5 3.5L8 10.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a><a class="btn btn-ghost" href="pricing.html">See pricing</a></div>
+  </div>
+</div></section>
+
+<div id="site-footer"></div>
+<script src="site.js?v=13"></script>
+<script src="assemble.js?v=13"></script>
+</body>
+</html>

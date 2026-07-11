@@ -1,0 +1,4120 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "v7lalt",
+      "x": 0,
+      "y": 0,
+      "name": "Slide 1 - Cover",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        120,
+        120,
+        100,
+        160
+      ],
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "KdtTw",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "logo-slima.png",
+            "mode": "fill"
+          },
+          "width": 189,
+          "height": 50
+        },
+        {
+          "type": "frame",
+          "id": "hTpGA",
+          "name": "Center Stack",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 36,
+          "children": [
+            {
+              "type": "frame",
+              "id": "i79YcM",
+              "name": "Eyebrow",
+              "fill": "#00000000",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "k40wA",
+                  "fill": "$ink",
+                  "width": 64,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "HozXw",
+                  "fill": "$ink",
+                  "content": "EDUCATION PARTNERS",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "letterSpacing": 6
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G0HUiJ",
+              "name": "Tagline",
+              "width": 1400,
+              "fill": "#00000000",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ECdtO",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The environment",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "ujHU3",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "for writing, research,",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "gRle7",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "and validation.",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": -2,
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "oQPMy",
+              "name": "subtag",
+              "fill": "$ink-muted",
+              "content": "Built with teachers, for teachers.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-serif",
+              "fontSize": 28,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MkiVa",
+          "name": "Footer Row",
+          "width": 1640,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "HB28m",
+              "fill": "$ink-faint",
+              "content": "A new kind of writing environment.",
+              "fontFamily": "$font-serif",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "D0PAD",
+              "fill": "$ink",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "VkF9O",
+      "x": 2020,
+      "y": 0,
+      "name": "Slide 2 - The Offer",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "yRPmS",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "r4My3",
+              "fill": "$ink",
+              "content": "01  /  WHAT YOU GET",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "CwFnk",
+              "fill": "$ink-muted",
+              "content": "Free for you, 40% for students",
+              "fontFamily": "$font-serif",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Th2qg",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 40
+        },
+        {
+          "type": "frame",
+          "id": "KWf4j",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "H2jaw",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "What you get.",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "vxRHS",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "For you, and your students.",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "WblAX",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "gJGHK",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "A free Pro account for you. 40% off for every student you teach.",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 28,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "IFelG",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 26
+        },
+        {
+          "type": "rectangle",
+          "id": "U94ai",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "Z2z6ku",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "padding": [
+            34,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Olcnh",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                60,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rreJa",
+                  "fill": "$ink-faint",
+                  "content": "For you, the educator",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "frame",
+                  "id": "t4VTqc",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NDJW2",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "S6ldh",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OYwHo",
+                          "fill": "$ink",
+                          "content": "Free Pro account, permanent.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "l8QH1G",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A $228/year writing environment, $0 for you, for as long as you teach.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DZqqg",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Dk8oT",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VJFmY",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aC0Y4",
+                          "fill": "$ink",
+                          "content": "Use it for your own writing.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qPEb9",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The same environment that helps your students finish their manuscripts helps you finish yours.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m3tlx",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i9879",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MZunk",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cvvW2",
+                          "fill": "$ink",
+                          "content": "Time saved in critique.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "kwrKa",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Students arrive at class with structured analysis already done. You spend your time on craft, not on flagging mechanical problems.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vgadI",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q2e7BU",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NObET",
+                          "fill": "$ink-faint",
+                          "content": "04",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M1Nys7",
+                          "fill": "$ink",
+                          "content": "Help your students finish.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "q6VqG3",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "That is the reason you teach. Slima is the tool built around that outcome.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gI2Of",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                0,
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y96WeJ",
+                  "fill": "$ink-faint",
+                  "content": "For your students",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "frame",
+                  "id": "fZyAg",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YNmmx",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lR7P2",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rYgJe",
+                          "fill": "$ink",
+                          "content": "40% off Pro",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "PcBoI",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "while you remain an active Slima Educator.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aQuYD",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C9krJ",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tNvEm",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vUTAF",
+                          "fill": "$ink",
+                          "content": "Activation at signup",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "h82pD",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "the student enters your name and email in the educator field.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P6ZvJ",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CdEU0",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kx2LW",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VCi6C",
+                          "fill": "$ink",
+                          "content": "Automatic verification",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "c9WnZn",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "we verify against your educator profile and apply the discount automatically.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "npzuW",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "u2Bn48",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 20
+        },
+        {
+          "type": "text",
+          "id": "c83HcM",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Apply once. Your students benefit from then on.",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "bZx1m",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ic7dK",
+              "fill": "#00000000",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "voBxA",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "logo-slima.png",
+                    "mode": "fill"
+                  },
+                  "width": 140,
+                  "height": 37
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ocVck",
+              "fill": "$ink-muted",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Uv0WK",
+      "x": 4040,
+      "y": 0,
+      "name": "Slide 3 - Why Slima Fits",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "gfCxs",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "YSm2o",
+              "fill": "$ink",
+              "content": "02  /  FEATURES",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "O0YyxZ",
+              "fill": "$ink-muted",
+              "content": "Tools, framed for the classroom",
+              "fontFamily": "$font-serif",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "K5VLL",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 52
+        },
+        {
+          "type": "frame",
+          "id": "QsvuP",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "KBdLV",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Features that help",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "DVjxv",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "you teach.",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "dxzdY",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "jvKFV",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "The tools you get, framed for the classroom.",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 28,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "N0NLYA",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 32
+        },
+        {
+          "type": "rectangle",
+          "id": "Jl034",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "GoOrl",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tpugY",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 56,
+              "padding": [
+                60,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XHtfI",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fdlXM",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XH3eI",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nXyCg",
+                          "fill": "$ink",
+                          "content": "Beta Reader.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qvb2i",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Attention curve, DNF risk, dimension scores, and a structured editor letter on every chapter. Students bring the mechanical critique to class. You teach craft.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yw6T1",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fAhnq",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EQBz8",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n3Svbq",
+                          "fill": "$ink",
+                          "content": "Full-book memory.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ph2Gi",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Review any student's chapter without rereading the whole manuscript. The environment already knows the book.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qNzbI",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YMUEk",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kMvOz",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DrJqh",
+                          "fill": "$ink",
+                          "content": "Version branching.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mOnka",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Have students try alternate endings or structural rewrites without losing the original draft. The comparison itself becomes a class exercise.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "XGanO",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "OpAZy",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 56,
+              "padding": [
+                60,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h70q1",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AWAri",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s07MK",
+                          "fill": "$ink-faint",
+                          "content": "04",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "J8j8Bf",
+                          "fill": "$ink",
+                          "content": "Character graph and timeline.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "R3EgX",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Catch consistency and chronology problems across long drafts in seconds, not hours.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rLuMr",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h86NT",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DYbYo",
+                          "fill": "$ink-faint",
+                          "content": "05",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dqbVS",
+                          "fill": "$ink",
+                          "content": "Writing Studio + Script Studio.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "fcgIf",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Novel and screenplay environments in one project graph. Teach across formats without switching tools.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ql1ut",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h8F5s",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fgfGi",
+                          "fill": "$ink-faint",
+                          "content": "06",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fMrzX",
+                          "fill": "$ink",
+                          "content": "Export to .docx, .md, .epub.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "NY5yi",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Students submit finished work in standard formats. No conversion friction.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "wDTQk",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "d9fC42",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 20
+        },
+        {
+          "type": "text",
+          "id": "Sc4tT",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "You teach craft. Slima removes the mechanical friction that was eating your students' completion rate.",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "ZzpT9",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MiYaP",
+              "fill": "#00000000",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "h2F5pc",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "logo-slima.png",
+                    "mode": "fill"
+                  },
+                  "width": 140,
+                  "height": 37
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "U6qSFA",
+              "fill": "$ink-muted",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "D41Z3",
+      "x": 0,
+      "y": 1180,
+      "name": "Slide 4 - Student Pricing",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "foiyH",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cD1sD",
+              "fill": "$ink",
+              "content": "03 / STUDENT PRICING",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 2.5
+            },
+            {
+              "type": "text",
+              "id": "l9bAhJ",
+              "fill": "$ink-faint",
+              "content": "Real numbers, no hidden mechanics",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1.2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "y3Cc1",
+          "name": "sp",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "kKLwO",
+          "name": "Headline",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "yJKjR",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "What your students get,",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Q8pZ6D",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "in numbers.",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "u53iWh",
+          "name": "sp",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "EHjkL",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Real pricing, real benefit, no hidden mechanics.",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 24,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "hq9aD",
+          "name": "sp",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 34
+        },
+        {
+          "type": "rectangle",
+          "id": "Ttfec",
+          "name": "div",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "JnU2d",
+          "name": "Table",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "F0iv3",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                16,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wW4Ks",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y8TaF6",
+                      "fill": "$ink-faint",
+                      "content": "PLAN",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sofzF",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rjn7p",
+                      "fill": "$ink-faint",
+                      "content": "STANDARD",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RGIQb",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f6jXb",
+                      "fill": "$ink-faint",
+                      "content": "WITH YOUR EDUCATOR DECLARATION",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "a0Oxeh",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "s9AoSM",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                20,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Tcf20",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FELlf",
+                      "fill": "$ink",
+                      "content": "Free",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cTDTj",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UTxu5",
+                      "fill": "$ink-muted",
+                      "content": "$0",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oKlcU",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z6A3x",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ivZSF",
+                          "fill": "$ink",
+                          "content": "$0",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "ija7w",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "NOjDW",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                20,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w007Sv",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ww8H0",
+                      "fill": "$ink",
+                      "content": "Starter",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d15C30",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A9k4L",
+                      "fill": "$ink-muted",
+                      "content": "$9/mo",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y2wkbF",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JOH16",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TrxMu",
+                          "fill": "$ink",
+                          "content": "$7.20/mo",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NClaB",
+                          "fill": "$ink-faint",
+                          "content": "(20% off)",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "WOou8",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "sBkTk",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                20,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s1eUv",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SbNEI",
+                      "fill": "$ink",
+                      "content": "Pro",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p9KjD",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OPMFr",
+                      "fill": "$ink-muted",
+                      "content": "$19/mo",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UgFEs",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WSpAu",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z2PLf",
+                          "fill": "$ink",
+                          "content": "$15.20/mo",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tfG9Q",
+                          "fill": "$ink-faint",
+                          "content": "(20% off)",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "HOsGS",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "kt0O7",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 18
+        },
+        {
+          "type": "text",
+          "id": "iSD2S",
+          "fill": "$ink-faint",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Discount applies for as long as you remain an active Slima Educator.",
+          "fontFamily": "$font-sans",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "rLY32",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 28
+        },
+        {
+          "type": "frame",
+          "id": "lWMbB",
+          "name": "Notes",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "gap": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "XED7F",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vbFh4",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Their work stays theirs.",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vS6hf",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Slima does not train on student manuscripts. Export to .docx, .md, or .epub at any time.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Wq3eV",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZH6Zq",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Private by default.",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "D3AntR",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Each student account is encrypted and scoped to them. You do not see their drafts unless they share them with you directly.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YENCi",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tUBqV",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Free tier forever if they don't upgrade.",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "pfnhS",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The discount makes the upgrade easier, not mandatory.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wwPTp",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "name": "Footer",
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Xi2qy",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "logo-slima.png",
+                "mode": "fill"
+              },
+              "width": 106,
+              "height": 28
+            },
+            {
+              "type": "text",
+              "id": "DCflA",
+              "fill": "$ink-faint",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zzYZM",
+      "x": 2020,
+      "y": 1180,
+      "name": "Slide 5 - What's Coming Next",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZtGoq",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "pk6xz",
+              "fill": "$ink",
+              "content": "04 / ROADMAP",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 2.5
+            },
+            {
+              "type": "text",
+              "id": "yznjt",
+              "fill": "$ink-faint",
+              "content": "The classroom we are building",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1.2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "C6jIG",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "dXs60",
+          "name": "Headline",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "pycL6",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "What is coming next,",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "W2CLia",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "and your role in it.",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "cloM1",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "UWAHY",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "The classroom we are building.",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 24,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "HuC2j",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 36
+        },
+        {
+          "type": "rectangle",
+          "id": "PXh73",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "e8uGD",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 36
+        },
+        {
+          "type": "frame",
+          "id": "ivuxM",
+          "name": "Grid",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 44,
+          "children": [
+            {
+              "type": "frame",
+              "id": "FRlb2",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HIxWt",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l0Evo",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P4pAwz",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "s2TgI0",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Shared project space.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dcXkS",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Teacher and students in the same writing environment, with synchronous inline correction and feedback.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "utFsB",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hWy2m",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d76len",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "D8ar8j",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Class management.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "j3uQv2",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Organize your students by class, track progress, see who is finishing and who is stuck.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YHic5",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jPeuX",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hJ3oY",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SHJXq",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "e5fDbY",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Research and validation tools.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y13sY5",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Sources, citations, and reference notes connected to the manuscript and visible to the teacher when the student asks for review.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Pxgoy",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R18p7",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BJ2dN",
+                          "fill": "$ink-faint",
+                          "content": "04",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "v5BmTz",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Beta Reader for educators.",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "o2671u",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Aggregate critique data across your class so you can see structural patterns before peer review.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "NbHDR",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 36
+        },
+        {
+          "type": "rectangle",
+          "id": "SfIjG",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "y0fwz",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 24
+        },
+        {
+          "type": "frame",
+          "id": "AsMjm",
+          "name": "Closing",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "if7bQ",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Educators in the program get these features first.",
+              "lineHeight": 1.35,
+              "fontFamily": "$font-serif",
+              "fontSize": 26,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "ecWTh",
+              "fill": "$ink-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Available to you before public release. Use Slima with your students today, exactly as it works now, and grow into the shared classroom when it arrives.",
+              "lineHeight": 1.45,
+              "fontFamily": "$font-sans",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "plG0p",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "name": "Footer",
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "bijEk",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "logo-slima.png",
+                "mode": "fill"
+              },
+              "width": 106,
+              "height": 28
+            },
+            {
+              "type": "text",
+              "id": "f3mDn",
+              "fill": "$ink-faint",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iwt4e",
+      "x": 4040,
+      "y": 1180,
+      "name": "Slide 6 - How To Join",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "A0K33v",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "p9Kul",
+              "fill": "$ink",
+              "content": "05 / HOW TO JOIN",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 2.5
+            },
+            {
+              "type": "text",
+              "id": "yTIc1",
+              "fill": "$ink-faint",
+              "content": "Three steps, no long ramp",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1.2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Z8UwIb",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "S7ojX",
+          "name": "Headline",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "iRvRf",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "How to join.",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Y8JSos",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Three steps, no long ramp.",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "GHvN2",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "Ai8DV",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "From application to your first student in days, not weeks.",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 24,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "pFxja",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 40
+        },
+        {
+          "type": "rectangle",
+          "id": "Y9PMO",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "mLjZV",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "JfHbq",
+          "name": "Steps",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "gap": 72,
+          "children": [
+            {
+              "type": "frame",
+              "id": "dTWcZ",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "toHK1",
+                  "fill": "$ink-faint",
+                  "content": "01",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "ioaSI",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Apply.",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Z8JlKK",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Apply at slima.ai/educators. Tell us where you teach, what you teach, and a link to your course or institution page.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L3D4th",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "siRof",
+                  "fill": "$ink-faint",
+                  "content": "02",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "K0LQ7g",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Approval.",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "AW3de",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We review within 5 business days. If approved, your Pro account is upgraded and your educator profile is activated.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zhYqD",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ouOzS",
+                  "fill": "$ink-faint",
+                  "content": "03",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "X3GwwI",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tell your students.",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vPpGg",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "When they sign up, they enter your name and email in the educator field. The discount applies automatically.",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "v9KM7i",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 56
+        },
+        {
+          "type": "rectangle",
+          "id": "qB8wm",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "qTPAb",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            44,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SkUTu",
+              "fill": "$ink",
+              "content": "Apply at slima.ai/educators.",
+              "lineHeight": 1.1,
+              "fontFamily": "$font-serif",
+              "fontSize": 46,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "iOfCb",
+              "fill": "$ink-muted",
+              "content": "Approved within five business days. Your students' discount applies the moment they enter your name at signup.",
+              "fontFamily": "$font-sans",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "E1Jff",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "u2yZx",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "name": "Footer",
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "F6axRj",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "logo-slima.png",
+                "mode": "fill"
+              },
+              "width": 106,
+              "height": 28
+            },
+            {
+              "type": "text",
+              "id": "UImo6",
+              "fill": "$ink-faint",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oDTo1",
+      "x": 6160,
+      "y": 0,
+      "name": "Gaivota Welcome A4",
+      "clip": true,
+      "width": 794,
+      "height": 1123,
+      "fill": "#fce9e0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        56,
+        64,
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "hQZcC",
+          "name": "Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "phi6H",
+              "name": "Headline",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Bem-vindo à",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "300",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "G8nkap",
+              "name": "Headline2",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Gaivota Guest House",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": "800",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "J8dGK",
+          "name": "Intro",
+          "fill": "#9b2b23",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Aqui reunimos informações úteis sobre os nossos serviços. Tudo faremos para que a sua estadia seja confortável, tranquila e memorável.",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "bzVCM",
+          "name": "Divider",
+          "fill": "#9b2b23",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "UAUej",
+          "name": "Columns",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "X9l7U",
+              "name": "Left Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c9bEG8",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aZEO6",
+                      "fill": "#9b2b23",
+                      "content": "Emergência",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mwkUU",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Em caso de emergência, mantenha a calma e ligue para o número nacional de emergência 112.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lCLCR",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I2BC4l",
+                      "fill": "#9b2b23",
+                      "content": "Saúde",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nqLFB",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital Divino Espírito Santo — Tel. 296 203 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i4pNwL",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital CUF Açores — Tel. 296 248 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F7X9r",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Farmácias mais próximas — São Roque ou Fajã de Baixo",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VSPmd",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y9B1BJ",
+                      "fill": "#9b2b23",
+                      "content": "Táxi",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "emwgM",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Central — 296 382 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BPKTw",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jwGLb",
+                      "fill": "#9b2b23",
+                      "content": "Condições",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y04X9",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "O alojamento é uma unidade NÃO FUMADORA. Por favor, respeite esta orientação dentro dos quartos.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s3kGlF",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "No ar condicionado, utilize apenas o botão ON/OFF e ajuste apenas a temperatura, sem alterar o modo de funcionamento.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BQECZ",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Há Wi-Fi em todo o alojamento e não necessita de palavra-passe para aceder.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bkAsT",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Dispomos de serviço de aluguer de toalhas para a praia e banhos termais. Caso pretenda, poderá solicitá-las na receção, mediante um custo adicional. Não é permitido levar as toalhas brancas para o exterior.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eZixb",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Não pendure toalhas ou roupas molhadas nas portas nem as coloque sobre a TV.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gXUHN",
+              "name": "Right Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kCIaT",
+                  "name": "PEQUENO-ALMOÇO",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wxLcy",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Pequeno-almoço",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FCAxA",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  O pequeno-almoço é servido das 08:00h até às 10:00h.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z51fTU",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Não é permitido levar o pequeno-almoço para o exterior.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k7iSy6",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Caso o horário do seu check-out seja muito cedo, poderemos preparar, mediante pedido antecipado, um lanche para levar. Solicite-o, por favor, na receção no dia anterior.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "X06tnG",
+                  "name": "LIMPEZA DIÁRIA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hrmgw",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Limpeza diária",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U6VDkF",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "De Segunda a Domingo, das 10:00h às 14:00h.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oY3HC",
+                  "name": "ZONA EXTERIOR",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GpCa5",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Zona exterior",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wFpVa",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Acesse pelo elevador e siga as indicações.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dj2I3",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Se for a última pessoa a sair da piscina, por favor, feche a porta à chave.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ylyTF",
+                  "name": "JACUZZI E SAUNA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mmlUQ",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Jacuzzi e sauna",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U3PD5Y",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Abertos das 08:00h às 21:00h.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FwovX",
+                  "name": "PISCINA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EpN05",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Piscina",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LaQPi",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Aberta das 07:00h às 22:00h.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yrXG3",
+                  "name": "CHECK-OUT",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "c16h7",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Check-out",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZVnml",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  O quarto deve estar desocupado até às 11:00h.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K6h1P",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Se o voo estiver marcado para a madrugada, ao sair deixe o cartão na receção.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XVTQT",
+          "name": "Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "XYsx5",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Sempre que precisar de alguma ajuda e/ou informações adicionais, por favor contacte-nos.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "MrCMl",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u1Us9J",
+                  "fill": "#9b2b23",
+                  "content": "Tel. (+351) 296 302 519",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "EqWsy",
+                  "fill": "#9b2b23",
+                  "content": "Tlm. (+351) 969 824 881",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "P7vOA6",
+              "fill": "#fce9e000",
+              "width": "fill_container",
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "id": "Kyd4S",
+              "fill": "#9b2b23",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "alFJh",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Desejamos-lhe uma ótima estadia!",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "gdieX",
+      "x": 7074,
+      "y": 0,
+      "name": "Gaivota Welcome A4 EN",
+      "clip": true,
+      "width": 794,
+      "height": 1123,
+      "fill": "#fce9e0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        56,
+        64,
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "TWYMs",
+          "name": "Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "UgZIk",
+              "name": "Headline",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Welcome to",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "300",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "MIlYK",
+              "name": "Headline2",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Gaivota Guest House",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": "800",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "jyE74",
+          "name": "Intro",
+          "fill": "#9b2b23",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Here you'll find useful information about our services. We will do everything we can to make your stay comfortable, peaceful, and memorable.",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "vENmm",
+          "name": "Divider",
+          "fill": "#9b2b23",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "YGeJp",
+          "name": "Columns",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "x4Dly2",
+              "name": "Left Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xs8Af",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E5zMZw",
+                      "fill": "#9b2b23",
+                      "content": "Emergency",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NGSMU",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "In case of emergency, stay calm and call the national emergency number 112.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T0B4M",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iyLeY",
+                      "fill": "#9b2b23",
+                      "content": "Health",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zh0Hc",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital Divino Espírito Santo — Tel. 296 203 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Dw3Vx",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital CUF Açores — Tel. 296 248 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qjBj6",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Nearest pharmacies — São Roque or Fajã de Baixo",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SKRV8",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BBDxo",
+                      "fill": "#9b2b23",
+                      "content": "Taxi",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lN4JT",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Dispatch — 296 382 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s0Mqaw",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zlKrH",
+                      "fill": "#9b2b23",
+                      "content": "House Rules",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y0kzk",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "This is a NON-SMOKING accommodation. Please respect this rule inside the rooms.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KMFWB",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "For the air conditioning, please use only the ON/OFF button and adjust the temperature only, without changing the operating mode.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K89gWs",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Wi-Fi is available throughout the accommodation and no password is required to connect.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E10Bi",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We offer a towel rental service for the beach and thermal baths. If you wish, you may request them at the reception for an additional fee. White towels are not allowed to be taken outside.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f39CE",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Please do not hang wet towels or clothes on the doors, nor place them on the TV.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u5WTn",
+              "name": "Right Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i6hnlc",
+                  "name": "PEQUENO-ALMOÇO",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M0sUs",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Breakfast",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nHscD",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Breakfast is served from 08:00 am to 10:00 am.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WC8bi",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Taking breakfast outside is not allowed.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O0zIw",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  If your check-out time is very early, we can prepare a takeaway snack upon prior request. Please ask at reception the day before.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C8LVg5",
+                  "name": "LIMPEZA DIÁRIA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rXdQD",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Daily cleaning",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lQn2c",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Monday to Sunday, from 10:00 am to 2:00 pm.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Khv8r",
+                  "name": "ZONA EXTERIOR",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z99LW",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Outdoor area",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TYffN",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Access via the elevator and follow the signs.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k1J1g",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "If you are the last person leaving the pool, please lock the door.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c5Yazv",
+                  "name": "JACUZZI E SAUNA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p0PxkE",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Jacuzzi and sauna",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c2sj9q",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Open from 08:00 am to 9:00 pm.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R9hU9",
+                  "name": "PISCINA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l3CdR",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Pool",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YJQMT",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Open from 07:00 am to 10:00 pm.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yZpma",
+                  "name": "CHECK-OUT",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GT6yZ",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "Check-out",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x7iw3J",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  The room must be vacated by 11:00 am.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FqpGs",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  If your flight is scheduled for early morning, please leave the key card at reception when you depart.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WFbf5",
+          "name": "Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "hBjJ6",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Whenever you need any help and/or additional information, please contact us.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "J07lS",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "soeoK",
+                  "fill": "#9b2b23",
+                  "content": "Tel. (+351) 296 302 519",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "F4IAw",
+                  "fill": "#9b2b23",
+                  "content": "Mobile (+351) 969 824 881",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "UMyT6",
+              "fill": "#fce9e000",
+              "width": "fill_container",
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "id": "Pg7eb",
+              "fill": "#9b2b23",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "n3quOm",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We wish you a wonderful stay!",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-green": {
+      "type": "color",
+      "value": "#3DBE82"
+    },
+    "accent-orange": {
+      "type": "color",
+      "value": "#F5A623"
+    },
+    "accent-purple": {
+      "type": "color",
+      "value": "#7B5CFF"
+    },
+    "bg-black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "bg-white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "font-sans": {
+      "type": "string",
+      "value": "Source Sans 3"
+    },
+    "font-serif": {
+      "type": "string",
+      "value": "Source Serif 4"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "ink-faint": {
+      "type": "color",
+      "value": "#8A8A8A"
+    },
+    "ink-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "ink-muted": {
+      "type": "color",
+      "value": "#595959"
+    },
+    "rule": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "rule-soft": {
+      "type": "color",
+      "value": "#E5E5E5"
+    }
+  }
+}

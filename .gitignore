@@ -1,0 +1,12 @@
+# macOS / cloud junk
+.DS_Store
+*.icloud
+*Zone.Identifier
+._*
+
+# never commit
+node_modules/
+.env
+*.key
+*credentials*
+*.pem

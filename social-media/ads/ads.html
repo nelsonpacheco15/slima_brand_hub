@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slima ads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Noto+Serif+TC:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#0a0a0a;--ink3:#5a5a60;--ink4:#8a8a8e;--line:#ececea;--soft:#faf9f6;--indigo:#6366f1;--green:#4ea87a;--amber:#d97706;--red:#d0463a;--serif:'IBM Plex Serif',Georgia,serif;--sans:'Inter',sans-serif;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#cfcfcf;font-family:var(--sans)}
+  .ad{width:1080px;height:1350px;background:#fff;position:relative;display:flex;flex-direction:column;padding:104px 108px 92px}
+  .ad+.ad{margin-top:36px}
+  .top{display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:14px;font-family:var(--serif);font-weight:400;font-size:44px;color:var(--ink)}
+  .brand .m{width:40px;height:40px;display:inline-block}
+  .brand .tld{font-family:var(--sans);font-size:22px;color:var(--ink4);font-weight:400;margin-left:-6px}
+  .try{font-family:var(--serif);font-size:26px;color:var(--ink)}
+  .stage{flex:1;display:flex;align-items:center;justify-content:center}
+  .copy h1{font-family:var(--serif);font-weight:400;font-size:80px;line-height:1.05;letter-spacing:-0.02em;color:var(--ink)}
+  .copy h1 em{font-style:italic;font-weight:400}
+  .copy .sub{font-family:var(--serif);font-size:36px;color:var(--ink3);margin-top:40px}
+  .foot{display:flex;align-items:center;justify-content:space-between;margin-top:60px}
+  .foot .b{display:flex;align-items:center;gap:14px;font-family:var(--serif);font-size:34px}
+  .foot .b .m{width:34px;height:34px;display:inline-block}
+  .foot .u{font-family:var(--serif);font-size:26px;color:var(--ink4)}
+  .flogo{height:50px;width:auto;display:block}
+
+  .panel{width:100%;background:var(--soft);border:1px solid var(--line);border-radius:28px;padding:44px}
+  .cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:24px}
+  .stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 30px}
+  .stat .l{font-size:22px;color:var(--ink4)}
+  .stat .v{font-family:var(--serif);font-size:48px;margin-top:8px}
+  .stat .v.warn{color:var(--amber)} .stat .v.star{color:var(--amber)}
+  .chart{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 30px}
+  .chart .t{font-family:var(--serif);font-size:26px;margin-bottom:6px}
+  .chart .pill{display:inline-block;font-size:18px;color:#fff;background:var(--red);border-radius:99px;padding:5px 14px;float:right}
+  .chart svg{width:100%;display:block}
+
+  .clist{display:flex;flex-direction:column;gap:14px}
+  .crow{display:flex;align-items:center;gap:18px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px;font-size:28px;color:#2a2a2e}
+  .crow .ic{width:38px;height:38px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+  .crow .ic.w{background:var(--amber)}
+  .crow .ch{margin-left:auto;font-size:20px;color:var(--ink4);background:var(--soft);padding:6px 14px;border-radius:9px}
+
+  .tree{background:#fff;border:1px solid var(--line);border-radius:18px;padding:36px 40px}
+  .tree .bk{font-family:var(--serif);font-size:32px;margin-bottom:22px}
+  .tree .r{font-size:28px;color:#2a2a2e;padding:12px 0;display:flex;align-items:center;gap:14px}
+  .tree .r.ind{padding-left:34px;color:var(--ink3)}
+  .tree .r.on{color:var(--ink);font-weight:400}
+  .tree .dot{color:var(--ink4)}
+
+  .git{position:relative;padding-left:10px}
+  .grow{display:flex;align-items:center;gap:22px;padding:20px 0;position:relative}
+  .gspine{position:absolute;left:18px;top:30px;bottom:30px;width:3px;background:var(--line)}
+  .gnode{width:24px;height:24px;border-radius:50%;border:3px solid var(--indigo);background:#fff;z-index:2;flex-shrink:0}
+  .grow.cur .gnode{background:var(--green);border-color:var(--green)}
+  .glbl{font-size:30px;color:#2a2a2e}
+  .gtag{margin-left:auto;font-size:20px;color:#fff;border-radius:99px;padding:6px 16px;background:var(--amber)}
+  .gtag.main{background:var(--indigo)} .gtag.snap{background:#9a9aa0}
+
+  .pgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .pc{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px 26px;display:flex;align-items:center;gap:18px}
+  .pc .av{width:56px;height:56px;border-radius:50%;background:var(--soft);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:26px;color:var(--ink3);flex-shrink:0}
+  .pc .nm{font-size:26px}.pc .ro{font-size:19px;color:var(--ink4);margin-top:2px}
+
+  .quote{text-align:center;padding:0 40px}
+  .quote .stars{font-size:40px;letter-spacing:8px;margin-bottom:40px}
+  .quote blockquote{font-family:var(--serif);font-size:56px;line-height:1.32;color:var(--ink)}
+  .quote blockquote em{font-style:italic}
+  .quote .by{font-family:var(--serif);font-style:italic;font-size:30px;color:var(--ink3);margin-top:48px}
+  body.grid{display:flex;flex-wrap:wrap;gap:22px;padding:30px;background:#e6e6e6;justify-content:center}
+  body.grid .ad{zoom:.17;box-shadow:0 12px 30px rgba(0,0,0,.15)}
+  body.grid .ad+.ad{margin-top:0}
+
+/* ui polish (make-interfaces-feel-better) */
+h1,h2,h3{text-wrap:balance}
+.lead,.head p,.ftext p,.scard p,.quote blockquote,.sub{text-wrap:pretty}
+.btn{transition-property:background-color,transform,border-color,box-shadow;transition-timing-function:cubic-bezier(.2,0,0,1)}
+.btn:active{transform:scale(.96)}
+.scard,.fcard,.fpanel,.studio-card,.price{transition-property:transform,box-shadow}
+.stat .n,.price .amt,.stat .v,.bt-r .vv,.mem-row em,.crow .ch{font-variant-numeric:tabular-nums}
+</style>
+<!-- seo:meta -->
+<meta name="robots" content="noindex,follow">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Slima">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Slima ads">
+<meta property="og:description" content="Slima — the writing studio for long projects.">
+<meta property="og:url" content="https://slima.ai/en/ads">
+<meta property="og:image" content="https://slima.ai/logo-slima.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@slima_ai">
+<meta name="twitter:title" content="Slima ads">
+<meta name="twitter:description" content="Slima — the writing studio for long projects.">
+<meta name="twitter:image" content="https://slima.ai/logo-slima.png">
+</head>
+<body>
+
+<!-- 1. FEEDBACK -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="cards">
+      <div class="stat"><div class="l">Continue reading</div><div class="v warn">5.7<span style="font-size:24px;color:var(--ink4)"> /10</span></div></div>
+      <div class="stat"><div class="l">Recommendation</div><div class="v warn">4.7<span style="font-size:24px;color:var(--ink4)"> /10</span></div></div>
+      <div class="stat"><div class="l">Stop-reading risk</div><div class="v warn">Medium</div></div>
+      <div class="stat"><div class="l">Reader rating</div><div class="v star">★ 3.2</div></div>
+    </div>
+    <div class="chart"><div class="t">Attention curve</div>
+      <svg viewBox="0 0 760 190" preserveAspectRatio="none"><rect x="470" y="0" width="60" height="190" fill="#f7eccb"/><path d="M10,40 C70,20 110,90 170,40 C230,0 250,150 320,150 C380,150 410,40 470,40 C500,40 510,160 530,160 C560,160 590,40 640,40 C690,40 720,150 750,90" fill="none" stroke="#6366f1" stroke-width="5" stroke-linecap="round"/><circle cx="530" cy="160" r="9" fill="#d0463a"/></svg>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Is your book<br><em>any good?</em></h1><div class="sub">Eight different readers and a pro editor read it and tell you the truth.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 2. WHERE READERS GIVE UP -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="chart" style="padding:40px 44px">
+      <div class="t">Attention curve <span class="pill">stopped reading</span></div>
+      <svg viewBox="0 0 760 320" preserveAspectRatio="none" style="margin-top:18px"><line x1="0" y1="40" x2="760" y2="40" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="160" x2="760" y2="160" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="280" x2="760" y2="280" stroke="#ececea" stroke-dasharray="4 8"/><rect x="440" y="0" width="70" height="320" fill="#f7eccb"/><path d="M10,60 C90,40 130,60 200,70 C280,82 320,90 440,250 C470,290 490,280 510,250 C580,150 650,70 750,60" fill="none" stroke="#6366f1" stroke-width="6" stroke-linecap="round"/><circle cx="475" cy="278" r="11" fill="#d0463a"/></svg>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Do you want feedback<br>on your <em>book?</em></h1><div class="sub">See where readers stop reading, and what to fix first.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 3. MEMORY -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Continuity check</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Cross-referenced across all 40 chapters</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Elena's eyes, green <span class="ch">ch. 2</span></div>
+      <div class="crow"><span class="ic w">!</span> Marcus: teacher → lawyer <span class="ch">ch. 7</span></div>
+      <div class="crow"><span class="ic">✓</span> Timeline consistent <span class="ch">Mar–Sept</span></div>
+      <div class="crow"><span class="ic">✓</span> Locket set up before payoff <span class="ch">ch. 9</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Does your book<br><em>contradict itself?</em></h1><div class="sub">Slima reads your whole book and catches what changed between scenes.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 4. WHOLE BOOK / ONE PLACE -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="tree">
+      <div class="bk">✳ &nbsp;THE ASSASSIN</div>
+      <div class="r on"><span class="dot">▾</span> Chapters</div>
+      <div class="r ind">Prologue</div>
+      <div class="r ind">1. The Contract</div>
+      <div class="r ind">2. Rooftops</div>
+      <div class="r"><span class="dot">›</span> People &nbsp;·&nbsp; 14 tracked</div>
+      <div class="r"><span class="dot">›</span> Timeline</div>
+      <div class="r"><span class="dot">›</span> Outline &amp; notes</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Another novel you'll<br><em>never finish?</em></h1><div class="sub">Your chapters, characters, and notes, together in one place.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 5. VERSION CONTROL -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Chapter 12 · versions</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:20px">Branch · snapshot · restore</div>
+    <div class="git"><div class="gspine"></div>
+      <div class="grow cur"><span class="gnode"></span><span class="glbl">Current draft</span><span class="gtag main">main</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">Darker ending</span><span class="gtag">branch</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">First-person POV</span><span class="gtag">branch</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">v3, before the cut</span><span class="gtag snap">snapshot</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Lost the best part<br>of your <em>project?</em></h1><div class="sub">Snapshots keep every draft, so you can always go back to the version that worked.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 6. EIGHT READERS -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Your beta readers</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Eight tastes, one honest read</div>
+    <div class="pgrid">
+      <div class="pc"><span class="av">A</span><div><div class="nm">Alex</div><div class="ro">Catches plot holes</div></div></div>
+      <div class="pc"><span class="av">M</span><div><div class="nm">Marcus</div><div class="ro">Hard to impress</div></div></div>
+      <div class="pc"><span class="av">V</span><div><div class="nm">Victoria</div><div class="ro">Loves good prose</div></div></div>
+      <div class="pc"><span class="av">O</span><div><div class="nm">Olivia</div><div class="ro">Quits if it drags</div></div></div>
+      <div class="pc"><span class="av">L</span><div><div class="nm">Leo</div><div class="ro">Guards the lore</div></div></div>
+      <div class="pc"><span class="av">N</span><div><div class="nm">Nina</div><div class="ro">Hunts weak twists</div></div></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Will readers<br><em>love your book?</em></h1><div class="sub">Eight readers, each with a different taste, give you an honest read.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 7. MEMORY (remembers what you set up earlier) -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Still in view</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Everything you set up earlier</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Elena's locket, planted early <span class="ch">pays off later</span></div>
+      <div class="crow"><span class="ic">✓</span> The promise she made before <span class="ch">still true</span></div>
+      <div class="crow"><span class="ic">✓</span> Marcus knew the truth all along <span class="ch">tracked</span></div>
+    </div>
+    <div style="margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:22px 22px 22px 8px;padding:22px 28px;font-size:27px;color:#2a2a2e">You planted Elena's vow early. It reads softer than her betrayal later. Want the lines?</div>
+  </div></div>
+  <div class="copy"><h1>Losing details from<br>your <em>own story?</em></h1><div class="sub">Slima remembers everything you set up, so you never have to dig for it.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 8. BEFORE LAUNCH (self-pub) -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Reader feedback</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Chapter 4 · 8 readers</div>
+    <div class="clist">
+      <div class="crow"><span class="ic" style="background:none;color:var(--amber);font-size:30px">★</span> Alex · 7.8 <span class="ch">tense open</span></div>
+      <div class="crow"><span class="ic" style="background:none;color:var(--amber);font-size:30px">★</span> Victoria · 6.0 <span class="ch">prose drags</span></div>
+      <div class="crow"><span class="ic w">!</span> Olivia · 4.2 <span class="ch">skimmed ch. 4</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Want to avoid<br><em>one-star reviews?</em></h1><div class="sub">Get honest reader and editor feedback before you publish, not after.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 9. SCREENWRITERS -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Continuity across episodes</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Tracked from pilot to finale</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Mara's promise to Cole <span class="ch">S1E2</span></div>
+      <div class="crow"><span class="ic w">!</span> The gun introduced, never fired <span class="ch">S1E4</span></div>
+      <div class="crow"><span class="ic">✓</span> Finale callback set up early <span class="ch">S1E9</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Losing track of<br>your <em>own series?</em></h1><div class="sub">Slima keeps your series consistent, from pilot to finale.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 10. FINISH -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Ready to publish</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">92,400 words · complete</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Draft complete</div>
+      <div class="crow"><span class="ic">✓</span> Continuity checked, 40 chapters</div>
+      <div class="crow"><span class="ic">✓</span> Read by 8 beta readers</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Is your book really<br><em>ready to publish?</em></h1><div class="sub">Check if it's ready with Slima Beta Readers.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 11. RESEARCHERS -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="tree">
+      <div class="bk">✳ &nbsp;THE STUDY</div>
+      <div class="r on"><span class="dot">▾</span> Sections</div>
+      <div class="r ind">Abstract</div>
+      <div class="r ind">Introduction</div>
+      <div class="r ind">Methods</div>
+      <div class="r ind">Results</div>
+      <div class="r"><span class="dot">›</span> Sources &nbsp;·&nbsp; 128 cited</div>
+      <div class="r"><span class="dot">›</span> Notes &amp; figures</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Research scattered across<br><em>tools and files?</em></h1><div class="sub">Bring every source, note, and draft into one place.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 12. PAPER / THESIS WRITERS -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Argument check</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Across every section</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Claim in §2 supported in §5 <span class="ch">§2 → §5</span></div>
+      <div class="crow"><span class="ic w">!</span> Figure 3 cited before it's defined <span class="ch">§4</span></div>
+      <div class="crow"><span class="ic">✓</span> Terminology consistent throughout</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Does your argument<br><em>make sense?</em></h1><div class="sub">Slima reads your whole project and keeps your claims and contradictions in check.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- NOVELISTS, ask your own book -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="display:flex;flex-direction:column;gap:18px">
+      <div style="align-self:flex-end;max-width:78%;background:#0a0a0a;color:#fff;border-radius:22px 22px 8px 22px;padding:20px 26px;font-size:27px">Is Elena's motive consistent across the book?</div>
+      <div style="align-self:flex-start;max-width:90%;background:#fff;border:1px solid var(--line);border-radius:22px 22px 22px 8px;padding:20px 26px;font-size:27px;color:#2a2a2e">Mostly, but her vow in ch. 12 reads softer than the betrayal in ch. 30. Want me to flag the lines?</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Have a question about<br>your <em>own book?</em></h1><div class="sub">Ask Slima. It has read every page and answers from inside your story.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- NOVELIST · progress -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="background:#fff;border:1px solid var(--line);border-radius:18px;padding:40px">
+      <div style="font-family:var(--serif);font-size:30px">The Assassin</div>
+      <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin:6px 0 26px">Day 34 · on track</div>
+      <div style="display:flex;align-items:baseline;gap:14px"><span style="font-family:var(--serif);font-size:64px">63,200</span><span style="font-size:26px;color:var(--ink4)">of 90,000 words</span></div>
+      <div style="height:16px;border-radius:99px;background:var(--soft);margin:22px 0 16px;overflow:hidden"><span style="display:block;height:100%;width:70%;background:var(--green);border-radius:99px"></span></div>
+      <div style="font-size:24px;color:#2a2a2e">+1,240 words today · 19-day streak</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Stuck on a<br><em>blank page?</em></h1><div class="sub">Just start writing. Slima keeps you going with daily goals and a streak.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- NOVELIST · worldbuilding -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="tree">
+      <div class="bk">✳ &nbsp;THE EMBER COURT</div>
+      <div class="r on"><span class="dot">▾</span> People &nbsp;·&nbsp; 22</div>
+      <div class="r ind">Kara of Aldermere</div>
+      <div class="r ind">Theon, the Warden</div>
+      <div class="r"><span class="dot">›</span> Places</div>
+      <div class="r"><span class="dot">›</span> Magic system</div>
+      <div class="r"><span class="dot">›</span> Timeline</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Can you keep your world<br><em>consistent?</em></h1><div class="sub">Keep every character and place consistent across your whole project.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- SELF-PUB · one-star surprise -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="background:#fff;border:1px solid var(--line);border-radius:18px;padding:40px">
+      <div style="font-size:30px;color:var(--amber);letter-spacing:4px">★ ☆ ☆ ☆ ☆</div>
+      <div style="font-family:var(--serif);font-size:30px;line-height:1.4;margin:18px 0 24px;color:#2a2a2e">"I gave up around chapter four, it just dragged."</div>
+      <div style="display:flex;align-items:center;gap:14px;font-size:24px;color:var(--green)"><span style="width:34px;height:34px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px">✓</span> Slima flagged that scene before launch.</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Find out if your book is<br>one-star rated <em>before publishing.</em></h1><div class="sub">Slima Beta Readers show you where readers would stop.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- SELF-PUB · readiness scorecard -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="cards">
+      <div class="stat"><div class="l">Pacing</div><div class="v" style="color:var(--green)">Strong</div></div>
+      <div class="stat"><div class="l">Continuity</div><div class="v" style="color:var(--green)">Clean</div></div>
+      <div class="stat"><div class="l">Stop-reading risk</div><div class="v" style="color:var(--green)">Low</div></div>
+      <div class="stat"><div class="l">Reader rating</div><div class="v star">★ 4.4</div></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Is your pacing<br><em>working?</em></h1><div class="sub">Slima scores your pacing, continuity, and risk, so you know what to fix.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- SCREENWRITER · scene coverage -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Scene 14 · coverage</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Honest notes, in seconds</div>
+    <div class="clist">
+      <div class="crow"><span class="ic" style="background:none;color:var(--amber);font-size:30px">★</span> Stakes · 8.1 <span class="ch">clear, rising</span></div>
+      <div class="crow"><span class="ic" style="background:none;color:var(--amber);font-size:30px">★</span> Dialogue · 7.4 <span class="ch">sharp</span></div>
+      <div class="crow"><span class="ic w">!</span> Pacing · 5.2 <span class="ch">act two sags</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Does this scene<br><em>make sense?</em></h1><div class="sub">Slima scores every scene and shows you what to fix.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- SCREENWRITER · series structure -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="tree">
+      <div class="bk">✳ &nbsp;MIDNIGHT LINE</div>
+      <div class="r on"><span class="dot">▾</span> Season 1</div>
+      <div class="r ind">Ep 1 · Pilot</div>
+      <div class="r ind">Ep 2 · The Deal</div>
+      <div class="r ind">Ep 3 · Rooftops</div>
+      <div class="r"><span class="dot">›</span> Characters &nbsp;·&nbsp; 22</div>
+      <div class="r"><span class="dot">›</span> Season arc</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Is your series bible<br>only in <em>your head?</em></h1><div class="sub">Season, episode, and scene in one place, with Final Draft and Fountain export.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- RESEARCHER · citations -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Citation check</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Tracked as you write</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> 128 sources linked</div>
+      <div class="crow"><span class="ic">✓</span> Every claim cited</div>
+      <div class="crow"><span class="ic w">!</span> Two citations missing page numbers</div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Lost track of<br>your <em>sources?</em></h1><div class="sub">Slima keeps every source and citation in place as you write.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- RESEARCHER · thesis versions -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Dissertation · versions</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:20px">Branch · snapshot · restore</div>
+    <div class="git"><div class="gspine"></div>
+      <div class="grow cur"><span class="gnode"></span><span class="glbl">Current draft</span><span class="gtag main">main</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">Advisor notes applied</span><span class="gtag">branch</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">After committee</span><span class="gtag snap">snapshot</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">First full draft</span><span class="gtag snap">snapshot</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Overwrote the draft<br>your <em>advisor wanted?</em></h1><div class="sub">Snapshots keep every draft, so no version is ever lost.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 22. Memory · perfect continuity (positive framing) -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Continuity check</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Across your whole book</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Elena's locket, planted early <span class="ch">pays off later</span></div>
+      <div class="crow"><span class="ic">✓</span> The vow she made before <span class="ch">still holds</span></div>
+      <div class="crow"><span class="ic w">!</span> Marcus: teacher, then lawyer <span class="ch">look again</span></div>
+    </div>
+    <div style="margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:22px 22px 22px 8px;padding:22px 28px;font-size:27px;color:#2a2a2e">You set Marcus up as a teacher, then he turns up as a lawyer. Want the lines?</div>
+  </div></div>
+  <div class="copy"><h1>Perfect continuity,<br><em>every time.</em></h1><div class="sub">Slima remembers your whole book and catches what does not add up.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 23. REDDIT · r/fantasywriters — worldbuilding consistency -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Worldbuilding check</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Magic, lore &amp; names · across the whole series</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Magic costs memory <span class="ch">set in bk. 1</span></div>
+      <div class="crow"><span class="ic w">!</span> The blade: Dawnfire → Duskfire <span class="ch">ch. 4 vs 19</span></div>
+      <div class="crow"><span class="ic w">!</span> Vael bloodline can't cross water <span class="ch">broken ch. 22</span></div>
+      <div class="crow"><span class="ic">✓</span> Map: northern border consistent <span class="ch">tracked</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Does your magic system<br><em>contradict itself?</em></h1><div class="sub">Slima tracks every rule, name, and detail across your world, and flags what breaks.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 24. REDDIT · r/selfpublish — DNF before you publish -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="chart" style="padding:40px 44px">
+      <div class="t">Where readers stop <span class="pill">DNF risk · high</span></div>
+      <svg viewBox="0 0 760 320" preserveAspectRatio="none" style="margin-top:18px"><line x1="0" y1="40" x2="760" y2="40" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="160" x2="760" y2="160" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="280" x2="760" y2="280" stroke="#ececea" stroke-dasharray="4 8"/><rect x="300" y="0" width="70" height="320" fill="#f7eccb"/><path d="M10,60 C90,46 150,60 230,80 C290,96 310,120 335,250 C350,300 370,288 400,260 C520,150 650,80 750,66" fill="none" stroke="#6366f1" stroke-width="6" stroke-linecap="round"/><circle cx="338" cy="276" r="11" fill="#d0463a"/></svg>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Will reviewers DNF<br>your <em>book?</em></h1><div class="sub">Eight beta readers show you exactly where readers stop, before you hit publish.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 25. REDDIT · r/Screenwriting — lost a better version -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Scene 24 · versions</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:20px">Branch · snapshot · restore</div>
+    <div class="git"><div class="gspine"></div>
+      <div class="grow cur"><span class="gnode"></span><span class="glbl">Current draft</span><span class="gtag main">main</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">The colder rewrite</span><span class="gtag">branch</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">Before the studio notes</span><span class="gtag snap">snapshot</span></div>
+      <div class="grow"><span class="gnode"></span><span class="glbl">Table-read version</span><span class="gtag snap">snapshot</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Lost a better version<br>of that <em>scene?</em></h1><div class="sub">Snapshots and branches keep every draft, so you can go back to the take that worked.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 26. NOTION COMPARISON -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="display:grid;grid-template-columns:1fr 150px 170px;align-items:center;gap:0 12px">
+      <div></div>
+      <div style="text-align:center;font-family:var(--sans);font-size:24px;color:var(--ink4);padding-bottom:18px">Notion</div>
+      <div style="text-align:center;font-family:var(--serif);font-size:28px;color:var(--ink);padding-bottom:18px">Slima</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <!-- row template -->
+      <div style="display:grid;grid-template-columns:1fr 150px 170px;align-items:center;gap:0 12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px;font-size:26px;color:#2a2a2e">
+        <span>Organize notes &amp; pages</span>
+        <span style="text-align:center;color:var(--green);font-size:30px">✓</span>
+        <span style="text-align:center;color:var(--green);font-size:30px;background:var(--soft);border-radius:10px;padding:6px 0">✓</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 150px 170px;align-items:center;gap:0 12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px;font-size:26px;color:#2a2a2e">
+        <span>Remembers your whole story</span>
+        <span style="text-align:center;color:var(--ink4);font-size:28px">—</span>
+        <span style="text-align:center;color:var(--green);font-size:30px;background:var(--soft);border-radius:10px;padding:6px 0">✓</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 150px 170px;align-items:center;gap:0 12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px;font-size:26px;color:#2a2a2e">
+        <span>Catches what contradicts</span>
+        <span style="text-align:center;color:var(--ink4);font-size:28px">—</span>
+        <span style="text-align:center;color:var(--green);font-size:30px;background:var(--soft);border-radius:10px;padding:6px 0">✓</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 150px 170px;align-items:center;gap:0 12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px;font-size:26px;color:#2a2a2e">
+        <span>An honest read of your draft</span>
+        <span style="text-align:center;color:var(--ink4);font-size:28px">—</span>
+        <span style="text-align:center;color:var(--green);font-size:30px;background:var(--soft);border-radius:10px;padding:6px 0">✓</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 150px 170px;align-items:center;gap:0 12px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px;font-size:26px;color:#2a2a2e">
+        <span>Never lose a version</span>
+        <span style="text-align:center;color:var(--ink4);font-size:28px">—</span>
+        <span style="text-align:center;color:var(--green);font-size:30px;background:var(--soft);border-radius:10px;padding:6px 0">✓</span>
+      </div>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Writing your book<br>in <em>Notion?</em></h1><div class="sub">Notion organizes your notes. Slima understands your whole manuscript.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 27. MILESTONE · 50,000 words (rides the real "you wrote a novel" moment) -->
+<section class="ad">
+  <div class="stage"><div class="panel" style="text-align:center;padding:64px 60px">
+    <div style="font-family:var(--serif);font-size:56px;color:var(--ink);margin-bottom:30px">✳</div>
+    <div style="font-family:var(--serif);font-size:128px;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:-.02em">50,000</div>
+    <div style="font-family:var(--sans);font-size:24px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink4);margin-top:14px">words written</div>
+    <div style="height:14px;border-radius:99px;background:var(--soft);border:1px solid var(--line);margin:40px 10px 0;overflow:hidden"><div style="height:100%;width:100%;background:var(--indigo)"></div></div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin-top:26px;font-family:var(--serif);font-size:30px;color:var(--ink3)">
+      <span style="width:12px;height:12px;border-radius:50%;background:var(--green);display:inline-block"></span>
+      19-day writing streak
+    </div>
+  </div></div>
+  <div class="copy"><h1>50,000 words.<br>That&rsquo;s <em>a novel.</em></h1><div class="sub">Slima tracks every session and keeps you moving, all the way to the end.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 28. TEST · honest read · would a stranger finish your book -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div class="chart" style="padding:40px 44px">
+      <div class="t">Where readers stop reading</div>
+      <svg viewBox="0 0 760 320" preserveAspectRatio="none" style="margin-top:18px"><line x1="0" y1="40" x2="760" y2="40" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="160" x2="760" y2="160" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="280" x2="760" y2="280" stroke="#ececea" stroke-dasharray="4 8"/><rect x="300" y="0" width="70" height="320" fill="#f7eccb"/><path d="M10,60 C90,46 150,60 230,80 C290,96 310,120 335,250 C350,300 370,288 400,260 C520,150 650,80 750,66" fill="none" stroke="#6366f1" stroke-width="6" stroke-linecap="round"/><circle cx="338" cy="276" r="11" fill="#d0463a"/></svg>
+    </div>
+  </div></div>
+  <div class="copy"><h1>Would a stranger<br>finish your <em>book?</em></h1><div class="sub">Slima reads your whole book and shows you where readers lose interest, so you can fix it before you publish.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 29. TEST · finishing · started three books -->
+<section class="ad">
+  <div class="stage"><div class="panel" style="text-align:center;padding:64px 60px">
+    <div style="font-family:var(--serif);font-size:52px;color:var(--ink);margin-bottom:26px">✳</div>
+    <div style="font-family:var(--serif);font-size:120px;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:-.02em">50,000</div>
+    <div style="font-family:var(--sans);font-size:24px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink4);margin-top:14px">words written</div>
+    <div style="height:14px;border-radius:99px;background:var(--soft);border:1px solid var(--line);margin:38px 10px 0;overflow:hidden"><div style="height:100%;width:100%;background:var(--indigo)"></div></div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:12px;margin-top:26px;font-family:var(--serif);font-size:30px;color:var(--ink3)"><span style="width:12px;height:12px;border-radius:50%;background:var(--green);display:inline-block"></span>19-day writing streak</div>
+  </div></div>
+  <div class="copy"><h1 style="font-size:70px">You&rsquo;ve started three books.<br>Finish <em>this one.</em></h1><div class="sub">Slima keeps your whole book in one place and keeps you writing, all the way to the end.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 30. REDDIT NATIVE · beta reader · looks like a real app screenshot -->
+<section class="ad" style="padding:0;background:#f4f3ef;justify-content:flex-start">
+  <div style="display:flex;align-items:center;gap:12px;padding:30px 42px;background:#fff;border-bottom:1px solid var(--line)">
+    <span class="m" style="width:34px;height:34px;display:inline-block"></span>
+    <span style="font-family:var(--serif);font-size:34px;color:var(--ink)">Slima</span>
+    <span style="font-family:var(--sans);font-size:25px;color:var(--ink4)">Beta Readers</span>
+  </div>
+  <div style="padding:48px 44px;display:flex;flex-direction:column;gap:30px">
+    <div>
+      <div style="font-family:var(--serif);font-size:48px;color:var(--ink)">The Assassin</div>
+      <div style="font-family:var(--sans);font-size:23px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink4);margin-top:8px">Honest read · 8 readers</div>
+    </div>
+    <div class="cards">
+      <div class="stat"><div class="l">Continue reading</div><div class="v warn">5.7<span style="font-size:24px;color:var(--ink4)"> /10</span></div></div>
+      <div class="stat"><div class="l">Recommendation</div><div class="v warn">4.7<span style="font-size:24px;color:var(--ink4)"> /10</span></div></div>
+      <div class="stat"><div class="l">Stop-reading risk</div><div class="v warn">Medium</div></div>
+      <div class="stat"><div class="l">Reader rating</div><div class="v star">★ 3.2</div></div>
+    </div>
+    <div class="chart" style="padding:36px 40px">
+      <div class="t">Where readers stop reading</div>
+      <svg viewBox="0 0 760 320" preserveAspectRatio="none" style="margin-top:18px"><line x1="0" y1="40" x2="760" y2="40" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="160" x2="760" y2="160" stroke="#ececea" stroke-dasharray="4 8"/><line x1="0" y1="280" x2="760" y2="280" stroke="#ececea" stroke-dasharray="4 8"/><rect x="300" y="0" width="70" height="320" fill="#f7eccb"/><path d="M10,60 C90,46 150,60 230,80 C290,96 310,120 335,250 C350,300 370,288 400,260 C520,150 650,80 750,66" fill="none" stroke="#6366f1" stroke-width="6" stroke-linecap="round"/><circle cx="338" cy="276" r="11" fill="#d0463a"/></svg>
+    </div>
+</section>
+
+<!-- 31. META · writing studio · remembers every detail -->
+<section class="ad">
+  <div class="stage"><div class="panel">
+    <div style="font-family:var(--serif);font-size:30px;margin-bottom:8px">Continuity check</div>
+    <div style="font-size:20px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink4);margin-bottom:26px">Across your whole project</div>
+    <div class="clist">
+      <div class="crow"><span class="ic">✓</span> Elena's locket, planted early <span class="ch">pays off later</span></div>
+      <div class="crow"><span class="ic">✓</span> The vow she made before <span class="ch">still holds</span></div>
+      <div class="crow"><span class="ic w">!</span> Marcus: teacher, then lawyer <span class="ch">look again</span></div>
+    </div>
+  </div></div>
+  <div class="copy"><h1 style="font-size:68px">Slima remembers every<br>detail of your <em>project.</em></h1><div class="sub">So you can keep writing instead of rereading.</div></div>
+  <div class="foot"><img class="flogo" src="logo-slima.png" alt="Slima"><span class="u">app.slima.ai</span></div>
+</section>
+
+<!-- 32. REDDIT · beta reader · framed template -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:98px;line-height:.98;letter-spacing:-.03em;color:#222228">Your friends won't<br>tell you the <span style="position:relative;display:inline-block">truth.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/friends-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:820px;line-height:1.3">Slima gives you an honest read, and shows you where readers lose interest.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">Get an honest read <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 33. META · writing studio · framed template -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:72px;line-height:1.06;letter-spacing:-.02em;color:#222228">An elephant never forgets.<br>Neither does <span style="position:relative;display:inline-block">your book.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/elephant-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:820px;line-height:1.3">Slima remembers every detail, so you can keep writing instead of rereading.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">Try Slima free <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 34. NOTION-STYLE · floating product cards over a scene -->
+<section class="ad" style="padding:0;background:#eceae3;justify-content:flex-start;overflow:hidden">
+  <div style="padding:74px 72px 0">
+    <h1 style="font-family:var(--serif);font-weight:600;font-size:90px;line-height:.98;letter-spacing:-.03em;color:#222228">One home for<br>your whole<br>project.</h1>
+  </div>
+  <div style="position:relative;margin:38px 60px 0;height:700px">
+    <img src="ad-images/hero-writer.jpg" style="width:100%;height:100%;object-fit:cover;border-radius:30px;display:block" alt="">
+    <!-- floating card: continuity -->
+    <div style="position:absolute;top:-20px;left:-16px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 22px;box-shadow:0 24px 50px -24px rgba(20,20,50,.4);transform:rotate(-2deg)">
+      <div style="font-family:var(--sans);font-size:17px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink4);margin-bottom:12px">Continuity</div>
+      <div style="display:flex;align-items:center;gap:12px;font-family:var(--sans);font-size:22px;color:#2a2a2e"><span style="width:26px;height:26px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px">✓</span>Elena's locket pays off</div>
+      <div style="display:flex;align-items:center;gap:12px;font-family:var(--sans);font-size:22px;color:#2a2a2e;margin-top:12px"><span style="width:26px;height:26px;border-radius:50%;background:var(--amber);color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px">!</span>Marcus: look again</div>
+    </div>
+    <!-- floating card: beta reader -->
+    <div style="position:absolute;bottom:40px;left:-22px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 24px;box-shadow:0 24px 50px -24px rgba(20,20,50,.4);transform:rotate(2deg)">
+      <div style="font-family:var(--sans);font-size:17px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink4);margin-bottom:8px">Beta readers</div>
+      <div style="font-family:var(--sans);font-size:20px;color:var(--ink4)">Continue reading</div>
+      <div style="font-family:var(--serif);font-size:44px;color:var(--amber)">5.7 <span style="font-size:22px;color:var(--ink4)">/10</span></div>
+    </div>
+    <!-- floating card: ask your book -->
+    <div style="position:absolute;bottom:-24px;right:22px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 22px;box-shadow:0 24px 50px -24px rgba(20,20,50,.4);transform:rotate(1.5deg);max-width:360px">
+      <div style="align-self:flex-end;margin-left:auto;width:fit-content;background:#0a0a0a;color:#fff;border-radius:16px 16px 6px 16px;padding:12px 18px;font-family:var(--sans);font-size:20px">Elena's eye color?</div>
+      <div style="background:var(--soft);border-radius:16px 16px 16px 6px;padding:12px 18px;font-family:var(--sans);font-size:20px;color:#2a2a2e;margin-top:10px">Green. Set early, mentioned again later.</div>
+    </div>
+  </div>
+  <div style="display:flex;align-items:center;gap:14px;padding:44px 72px 0">
+    <span class="m" style="width:44px;height:44px;display:inline-block"></span>
+    <span style="font-family:var(--serif);font-size:46px;color:var(--ink)">Slima</span>
+    <span style="font-family:var(--sans);font-size:26px;color:var(--ink4);margin-left:auto">app.slima.ai</span>
+  </div>
+</section>
+
+<!-- 35. EDITORIAL · never lose the plot · FRAMED + lonely title + hand underline -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:120px;line-height:.94;letter-spacing:-.03em;color:#222228">Never lose <span style="position:relative;display:inline-block">the plot.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/plot-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:760px;line-height:1.3">Slima remembers your whole story, start to finish.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">Start your book <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 36. EDITORIAL · a book that reads you back · framed template -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:106px;line-height:.98;letter-spacing:-.03em;color:#222228">A book that <span style="position:relative;display:inline-block">reads you back.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/book-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:820px;line-height:1.3">Slima shows you exactly where readers lose interest.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">See your first read <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 37. EDITORIAL · get the last word · framed template -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:120px;line-height:.94;letter-spacing:-.03em;color:#222228">Get the <span style="position:relative;display:inline-block">last word.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/lastword-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:820px;line-height:1.3">Keep every draft. Finish on your terms.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">Finish your book <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 38. EDITORIAL · fantasy writers · framed template -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:108px;line-height:.96;letter-spacing:-.03em;color:#222228">Keep your world <span style="position:relative;display:inline-block">in one piece.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/fantasy-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:820px;line-height:1.3">Slima keeps every rule, name, and place consistent across your world.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">Build your world <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 39. EDITORIAL · researchers · framed template -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:102px;line-height:.98;letter-spacing:-.03em;color:#222228">Every source,<br><span style="position:relative;display:inline-block">in one place.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/research-illo.png" style="max-width:88%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(0.96)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:820px;line-height:1.3">Slima keeps every source and note together as you write.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">Start free <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 40. EDITORIAL · version control · framed template -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:var(--serif);font-weight:400;font-size:106px;line-height:.96;letter-spacing:-.03em;color:#222228">Your drafts have <span style="position:relative;display:inline-block">nine lives.<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:-1%;bottom:-.04em;width:102%;height:.2em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span></h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/ninelives-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:var(--serif);font-size:33px;color:var(--ink4);margin-top:14px;margin-bottom:28px;max-width:820px;line-height:1.3">Rewrite boldly. Slima keeps every draft you ever wrote.</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:var(--sans);font-size:27px;font-weight:600;padding:14px 26px;border-radius:999px">Never lose a draft <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 41. zh-TW · never lose the plot (別讓故事脫線) -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+    <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:116px;line-height:1.14;letter-spacing:.01em;color:#222228">別讓故事<span style="position:relative;display:inline-block">脫線<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>。</h1>
+    <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+      <img src="ad-images/plot-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+    </div>
+    <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:16px;margin-bottom:30px;line-height:1.4">Slima 記得你的整個故事，從頭到尾。</div>
+    <div style="display:flex;align-items:center">
+      <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+      <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">免費開始寫作 <span style="font-size:30px;line-height:1">&rarr;</span></span>
+    </div>
+</section>
+
+<!-- 42. zh-TW · friends / honest read -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+  <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:110px;line-height:1.14;letter-spacing:.01em;color:#222228">朋友不會<br>告訴你<span style="position:relative;display:inline-block">真話<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>。</h1>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+    <img src="ad-images/friends-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+  </div>
+  <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:14px;margin-bottom:28px;line-height:1.5">Slima 給你誠實的評讀，告訴你讀者在哪裡失去興趣。</div>
+  <div style="display:flex;align-items:center">
+    <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+    <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">取得誠實評讀 <span style="font-size:30px;line-height:1">&rarr;</span></span>
+  </div>
+</section>
+
+<!-- 43. zh-TW · elephant / memory -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+  <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:98px;line-height:1.16;letter-spacing:.01em;color:#222228">大象不會忘記。<br>你的書<span style="position:relative;display:inline-block">也一樣<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>。</h1>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+    <img src="ad-images/elephant-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+  </div>
+  <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:14px;margin-bottom:28px;line-height:1.5">Slima 記得每個細節，讓你專心寫，不用回頭重讀。</div>
+  <div style="display:flex;align-items:center">
+    <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+    <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">免費試用 Slima <span style="font-size:30px;line-height:1">&rarr;</span></span>
+  </div>
+</section>
+
+<!-- 44. zh-TW · book that reads you back / beta readers -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+  <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:108px;line-height:1.14;letter-spacing:.01em;color:#222228">一本<span style="position:relative;display:inline-block">回頭讀你<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>的書。</h1>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+    <img src="ad-images/book-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+  </div>
+  <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:14px;margin-bottom:28px;line-height:1.5">Slima 精準告訴你，讀者在哪裡失去興趣。</div>
+  <div style="display:flex;align-items:center">
+    <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+    <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">看你的第一份評讀 <span style="font-size:30px;line-height:1">&rarr;</span></span>
+  </div>
+</section>
+
+<!-- 45. zh-TW · last word / finishing -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+  <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:110px;line-height:1.14;letter-spacing:.01em;color:#222228">寫下<span style="position:relative;display:inline-block">最後一個字<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>。</h1>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+    <img src="ad-images/lastword-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+  </div>
+  <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:14px;margin-bottom:28px;line-height:1.5">保留每一份草稿，用你的方式完成。</div>
+  <div style="display:flex;align-items:center">
+    <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+    <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">完成你的書 <span style="font-size:30px;line-height:1">&rarr;</span></span>
+  </div>
+</section>
+
+<!-- 46. zh-TW · fantasy / worldbuilding -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+  <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:102px;line-height:1.16;letter-spacing:.01em;color:#222228">讓你的世界<br><span style="position:relative;display:inline-block">完整無缺<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>。</h1>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+    <img src="ad-images/fantasy-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+  </div>
+  <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:14px;margin-bottom:28px;line-height:1.5">Slima 讓每條設定、每個名字與地點，在整個世界裡保持一致。</div>
+  <div style="display:flex;align-items:center">
+    <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+    <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">打造你的世界 <span style="font-size:30px;line-height:1">&rarr;</span></span>
+  </div>
+</section>
+
+<!-- 47. zh-TW · research / sources -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+  <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:104px;line-height:1.14;letter-spacing:.01em;color:#222228">出處，<span style="position:relative;display:inline-block">一個都不少<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>。</h1>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+    <img src="ad-images/research-illo.png" style="max-width:88%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(0.96)" alt="">
+  </div>
+  <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:14px;margin-bottom:28px;line-height:1.5">寫作時，Slima 幫你把每個來源與筆記收在一起。</div>
+  <div style="display:flex;align-items:center">
+    <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+    <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">免費開始 <span style="font-size:30px;line-height:1">&rarr;</span></span>
+  </div>
+</section>
+
+<!-- 48. zh-TW · nine lives / version control -->
+<section class="ad" style="padding:90px 84px 66px;background:#ffffff;justify-content:flex-start">
+  <h1 style="font-family:'Noto Serif TC',serif;font-weight:600;font-size:104px;line-height:1.14;letter-spacing:.01em;color:#222228">你的草稿<span style="position:relative;display:inline-block">有九條命<svg viewBox="0 0 300 20" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-.08em;width:100%;height:.16em;overflow:visible"><path d="M6,13 C56,5 104,17 156,10 C206,4 250,15 294,8" fill="none" stroke="#6366f1" stroke-width="9" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span>。</h1>
+  <div style="flex:1;display:flex;align-items:center;justify-content:center;min-height:0;overflow:hidden;margin-top:22px">
+    <img src="ad-images/ninelives-illo.png" style="max-width:92%;max-height:100%;object-fit:contain;filter:grayscale(1) brightness(1.14) opacity(0.72);transform:scale(1.16)" alt="">
+  </div>
+  <div style="font-family:'Noto Serif TC',serif;font-size:34px;color:var(--ink4);margin-top:14px;margin-bottom:28px;line-height:1.5">大膽改寫，Slima 保留你寫過的每一份草稿。</div>
+  <div style="display:flex;align-items:center">
+    <img src="logo-slima.png" alt="Slima" style="height:44px;width:auto;display:block">
+    <span style="margin-left:auto;display:inline-flex;align-items:center;gap:10px;background:rgba(99,102,241,.1);color:var(--indigo);font-family:'Noto Serif TC',serif;font-size:28px;font-weight:600;padding:14px 28px;border-radius:999px">不再弄丟草稿 <span style="font-size:30px;line-height:1">&rarr;</span></span>
+  </div>
+</section>
+
+<script>
+  var MARK='<svg viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg"><path fill="#0a0a0a" d="M58.8,38.61l39.68-15.07c.8.6,1.56,1.48,1.93,2.42.29.74.76,2.23.2,2.84l-33.5,18.01c.1.24,2.21.66,2.64.76,14.6,3.43,29.37,6.15,44.07,9.15.21.03.34.13.46.3.83,1.19.46,6.42-1.4,6.51-14.91-1.43-29.87-2.4-44.82-3.41l35.8,35.91c-.58,2.36-2.53,5.23-5.18,5.09l-22.15-17.11-17.15-12.38c3.09,15.53,6.74,30.93,10.38,46.34.18.79-.66,1.53-1.26,1.94-1.23.83-4.84,1.91-5.77.36-5.52-15.48-10.88-31.03-17.23-46.18-5.16,13.04-9.74,26.31-14.46,39.51-1.02,1.62-5.36.05-6.25-1.44l9.86-45.05-13.19,9.74-14.41,11.25c-1.63.83-4.72-2.86-3.67-4.14,9.4-8.83,18.66-17.83,27.49-27.23l-27.47,2.24c-1.3-.04-1.75-2.99-1.11-3.93l31.22-6.9-20.63-10.69c-1.44-.53-.12-3.03.81-3.29l23.97,8.98-11.48-20.62c.15-.75,2.19-2.19,2.88-1.26,3.24,4.56,6.44,9.14,9.77,13.63,1.05,1.41,2.18,3.11,3.31,4.42.12.14,0,.36.43.24l1.89-27.64c1.05-.77,3.12-.77,3.35.79.49,7.91.8,15.84,1.37,23.74.02.28-.15.55.28.47,3.35-4.45,6.77-8.85,10.06-13.34,3.49-4.75,6.85-9.66,10.36-14.37,1.23-.38,4.13,1.48,3.56,2.99-4.1,7.49-8.52,14.82-12.59,22.33-.23.43-2.2,3.92-2.04,4.09Z"/></svg>';
+  document.querySelectorAll('.m').forEach(function(e){e.innerHTML=MARK;});
+  var r=new URLSearchParams(location.search).get('r');
+  var H={'1x1':1080,'4x5':1350,'9x16':1920};
+  if(r&&H[r]){document.querySelectorAll('.ad').forEach(function(a){a.style.height=H[r]+'px';});}
+  if(new URLSearchParams(location.search).get('view')==='grid'){document.body.classList.add('grid');}
+  var only=new URLSearchParams(location.search).get('only');
+  if(only){document.querySelectorAll('.ad').forEach(function(a,i){a.style.display=(String(i+1)===only)?'flex':'none';a.style.marginTop='0';});document.body.style.background='#fff';document.body.style.margin='0';}
+</script>
+</body>
+</html>

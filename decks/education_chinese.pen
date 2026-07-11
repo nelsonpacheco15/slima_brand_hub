@@ -1,0 +1,4120 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "v7lalt",
+      "x": 0,
+      "y": 0,
+      "name": "投影片 1 - 封面",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        120,
+        120,
+        100,
+        160
+      ],
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "KdtTw",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "../Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Documents/Projects/Slima/Slima%20pitch%20decks/logo-slima.png",
+            "mode": "fill"
+          },
+          "width": 189,
+          "height": 50
+        },
+        {
+          "type": "frame",
+          "id": "hTpGA",
+          "name": "Center Stack",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 36,
+          "children": [
+            {
+              "type": "frame",
+              "id": "i79YcM",
+              "name": "Eyebrow",
+              "fill": "#00000000",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "k40wA",
+                  "fill": "$ink",
+                  "width": 64,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "HozXw",
+                  "fill": "$ink",
+                  "content": "教育合作夥伴",
+                  "fontFamily": "$font-sans",
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "letterSpacing": 6
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "G0HUiJ",
+              "name": "Tagline",
+              "width": 1400,
+              "fill": "#00000000",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ECdtO",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "專為寫作、研究",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "ujHU3",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "與驗證打造的",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "gRle7",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "創作環境。",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 96,
+                  "fontWeight": "600",
+                  "letterSpacing": -2,
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "oQPMy",
+              "name": "subtag",
+              "fill": "$ink-muted",
+              "content": "與教師共同打造，為教師而生。",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-serif",
+              "fontSize": 28,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "MkiVa",
+          "name": "Footer Row",
+          "width": 1640,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "HB28m",
+              "fill": "$ink-faint",
+              "content": "一種全新的寫作環境。",
+              "fontFamily": "$font-serif",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "D0PAD",
+              "fill": "$ink",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "VkF9O",
+      "x": 2020,
+      "y": 0,
+      "name": "投影片 2 - 方案內容",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "yRPmS",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "r4My3",
+              "fill": "$ink",
+              "content": "01  /  您將獲得的",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "CwFnk",
+              "fill": "$ink-muted",
+              "content": "您免費，學生享六折優惠",
+              "fontFamily": "$font-serif",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Th2qg",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 40
+        },
+        {
+          "type": "frame",
+          "id": "KWf4j",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "H2jaw",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "您將獲得什麼。",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "vxRHS",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "為您，也為您的學生。",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "WblAX",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "gJGHK",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "您可獲得免費 Pro 帳號。您教授的每位學生可享六折優惠。",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 28,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "IFelG",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 26
+        },
+        {
+          "type": "rectangle",
+          "id": "U94ai",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "Z2z6ku",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "padding": [
+            34,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Olcnh",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                60,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rreJa",
+                  "fill": "$ink-faint",
+                  "content": "給您，教育工作者",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "frame",
+                  "id": "t4VTqc",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NDJW2",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "S6ldh",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OYwHo",
+                          "fill": "$ink",
+                          "content": "永久免費 Pro 帳號。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "l8QH1G",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "價值每年 $228 美元的寫作環境，您在任教期間完全免費。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DZqqg",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Dk8oT",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VJFmY",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aC0Y4",
+                          "fill": "$ink",
+                          "content": "用於您自己的寫作。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qPEb9",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "幫助學生完成作品的環境，同樣能幫助您完成您的作品。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m3tlx",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i9879",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MZunk",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cvvW2",
+                          "fill": "$ink",
+                          "content": "節省評論時間。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "kwrKa",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "學生上課前已完成結構化分析。您可以把時間花在教授寫作技巧上，而非標記技術性問題。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vgadI",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q2e7BU",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NObET",
+                          "fill": "$ink-faint",
+                          "content": "04",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M1Nys7",
+                          "fill": "$ink",
+                          "content": "幫助學生完成作品。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "q6VqG3",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "這就是您教學的意義。Slima 正是為此而生的工具。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gI2Of",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 20,
+              "padding": [
+                0,
+                0,
+                0,
+                60
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y96WeJ",
+                  "fill": "$ink-faint",
+                  "content": "給您的學生",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "frame",
+                  "id": "fZyAg",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YNmmx",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lR7P2",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rYgJe",
+                          "fill": "$ink",
+                          "content": "Pro 方案六折優惠",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "PcBoI",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "在您擔任 Slima 教育者期間持續有效。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aQuYD",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C9krJ",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tNvEm",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vUTAF",
+                          "fill": "$ink",
+                          "content": "註冊時啟用",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "h82pD",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "學生在教育者欄位中輸入您的姓名和電子郵件即可。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P6ZvJ",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CdEU0",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kx2LW",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 20,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VCi6C",
+                          "fill": "$ink",
+                          "content": "自動驗證",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 26,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "c9WnZn",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "我們會根據您的教育者檔案進行驗證，並自動套用折扣。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "npzuW",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "u2Bn48",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 20
+        },
+        {
+          "type": "text",
+          "id": "c83HcM",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "申請一次，您的學生即可持續受益。",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "bZx1m",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ic7dK",
+              "fill": "#00000000",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "voBxA",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Documents/Projects/Slima/Slima%20pitch%20decks/logo-slima.png",
+                    "mode": "fill"
+                  },
+                  "width": 140,
+                  "height": 37
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ocVck",
+              "fill": "$ink-muted",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Uv0WK",
+      "x": 4040,
+      "y": 0,
+      "name": "投影片 3 - 為何選擇 Slima",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "gfCxs",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "YSm2o",
+              "fill": "$ink",
+              "content": "02  /  功能特色",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "O0YyxZ",
+              "fill": "$ink-muted",
+              "content": "專為課堂設計的工具",
+              "fontFamily": "$font-serif",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "K5VLL",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 52
+        },
+        {
+          "type": "frame",
+          "id": "QsvuP",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "KBdLV",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "幫助您教學的",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "DVjxv",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "功能特色。",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 80,
+              "fontWeight": "600",
+              "letterSpacing": -2,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "dxzdY",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "jvKFV",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "您所獲得的工具，專為課堂情境打造。",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 28,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "N0NLYA",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 32
+        },
+        {
+          "type": "rectangle",
+          "id": "Jl034",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "GoOrl",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tpugY",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 56,
+              "padding": [
+                60,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XHtfI",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fdlXM",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XH3eI",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nXyCg",
+                          "fill": "$ink",
+                          "content": "Beta 讀者。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qvb2i",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "每章提供注意力曲線、棄讀風險、維度評分，以及結構化的編輯信。學生帶著技術性評論進課堂，您專注教授寫作技巧。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yw6T1",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fAhnq",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EQBz8",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n3Svbq",
+                          "fill": "$ink",
+                          "content": "全書記憶。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ph2Gi",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "審閱學生的任何章節，無需重讀整部手稿。環境已經記住了整本書。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qNzbI",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YMUEk",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kMvOz",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DrJqh",
+                          "fill": "$ink",
+                          "content": "版本分支。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "mOnka",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "讓學生嘗試不同結局或結構改寫，而不會失去原稿。比較本身就可以成為課堂練習。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "XGanO",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "OpAZy",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 56,
+              "padding": [
+                60,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h70q1",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AWAri",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s07MK",
+                          "fill": "$ink-faint",
+                          "content": "04",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "J8j8Bf",
+                          "fill": "$ink",
+                          "content": "角色圖譜與時間線。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "R3EgX",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "在數秒內發現長篇稿件中的一致性和時序問題，而非數小時。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rLuMr",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h86NT",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DYbYo",
+                          "fill": "$ink-faint",
+                          "content": "05",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dqbVS",
+                          "fill": "$ink",
+                          "content": "寫作工坊 + 劇本工坊。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "fcgIf",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "小說與劇本環境整合在同一專案圖譜中。跨格式教學，無需切換工具。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ql1ut",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h8F5s",
+                      "fill": "#00000000",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fgfGi",
+                          "fill": "$ink-faint",
+                          "content": "06",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 18,
+                          "fontWeight": "normal",
+                          "fontStyle": "italic"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fMrzX",
+                          "fill": "$ink",
+                          "content": "匯出為 .docx、.md、.epub。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "letterSpacing": -0.5
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "NY5yi",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "學生以標準格式提交完成的作品。沒有轉換障礙。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "wDTQk",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "d9fC42",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 20
+        },
+        {
+          "type": "text",
+          "id": "Sc4tT",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "您教授技藝。Slima 消除了拖累學生完成率的技術性摩擦。",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "ZzpT9",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MiYaP",
+              "fill": "#00000000",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "h2F5pc",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Documents/Projects/Slima/Slima%20pitch%20decks/logo-slima.png",
+                    "mode": "fill"
+                  },
+                  "width": 140,
+                  "height": 37
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "U6qSFA",
+              "fill": "$ink-muted",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 18,
+              "fontWeight": "500",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "D41Z3",
+      "x": 0,
+      "y": 1180,
+      "name": "投影片 4 - 學生定價",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "foiyH",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "cD1sD",
+              "fill": "$ink",
+              "content": "03 / 學生定價",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 2.5
+            },
+            {
+              "type": "text",
+              "id": "l9bAhJ",
+              "fill": "$ink-faint",
+              "content": "真實數字，沒有隱藏機制",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1.2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "y3Cc1",
+          "name": "sp",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "kKLwO",
+          "name": "Headline",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "yJKjR",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "您的學生獲得什麼，",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Q8pZ6D",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "用數字說明。",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "u53iWh",
+          "name": "sp",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "EHjkL",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "真實定價，真實優惠，沒有隱藏機制。",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 24,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "hq9aD",
+          "name": "sp",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 34
+        },
+        {
+          "type": "rectangle",
+          "id": "Ttfec",
+          "name": "div",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "JnU2d",
+          "name": "Table",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "F0iv3",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                16,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wW4Ks",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y8TaF6",
+                      "fill": "$ink-faint",
+                      "content": "方案",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sofzF",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rjn7p",
+                      "fill": "$ink-faint",
+                      "content": "標準價格",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RGIQb",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "f6jXb",
+                      "fill": "$ink-faint",
+                      "content": "使用您的教育者聲明",
+                      "fontFamily": "$font-sans",
+                      "fontSize": 13,
+                      "fontWeight": "600",
+                      "letterSpacing": 1.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "a0Oxeh",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "s9AoSM",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                20,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Tcf20",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FELlf",
+                      "fill": "$ink",
+                      "content": "免費",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cTDTj",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UTxu5",
+                      "fill": "$ink-muted",
+                      "content": "$0",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oKlcU",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Z6A3x",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ivZSF",
+                          "fill": "$ink",
+                          "content": "$0",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "ija7w",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "NOjDW",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                20,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w007Sv",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ww8H0",
+                      "fill": "$ink",
+                      "content": "入門",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d15C30",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A9k4L",
+                      "fill": "$ink-muted",
+                      "content": "$9/mo",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y2wkbF",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JOH16",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TrxMu",
+                          "fill": "$ink",
+                          "content": "$7.20/mo",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "NClaB",
+                          "fill": "$ink-faint",
+                          "content": "(20% off)",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "WOou8",
+              "fill": "$rule-soft",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "sBkTk",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "padding": [
+                20,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s1eUv",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SbNEI",
+                      "fill": "$ink",
+                      "content": "專業",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 28,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p9KjD",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OPMFr",
+                      "fill": "$ink-muted",
+                      "content": "$19/mo",
+                      "fontFamily": "$font-serif",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UgFEs",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WSpAu",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z2PLf",
+                          "fill": "$ink",
+                          "content": "$15.20/mo",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tfG9Q",
+                          "fill": "$ink-faint",
+                          "content": "(20% off)",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "HOsGS",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "kt0O7",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 18
+        },
+        {
+          "type": "text",
+          "id": "iSD2S",
+          "fill": "$ink-faint",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "折扣在您擔任 Slima 教育者期間持續有效。",
+          "fontFamily": "$font-sans",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "rLY32",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 28
+        },
+        {
+          "type": "frame",
+          "id": "lWMbB",
+          "name": "Notes",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "gap": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "XED7F",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vbFh4",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "作品歸學生所有。",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vS6hf",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Slima 不會使用學生手稿進行訓練。隨時可匯出為 .docx、.md 或 .epub。",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Wq3eV",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZH6Zq",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "預設為私密。",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "D3AntR",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "每個學生帳號都經過加密且僅限本人使用。除非學生主動分享，否則您無法看到他們的草稿。",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YENCi",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tUBqV",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "不升級也可永久使用免費方案。",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "pfnhS",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "折扣讓升級更容易，但並非強制。",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "wwPTp",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "name": "Footer",
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Xi2qy",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Documents/Projects/Slima/Slima%20pitch%20decks/logo-slima.png",
+                "mode": "fill"
+              },
+              "width": 106,
+              "height": 28
+            },
+            {
+              "type": "text",
+              "id": "DCflA",
+              "fill": "$ink-faint",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zzYZM",
+      "x": 2020,
+      "y": 1180,
+      "name": "Slide 5 - 即將推出",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "ZtGoq",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "pk6xz",
+              "fill": "$ink",
+              "content": "04 / 發展藍圖",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 2.5
+            },
+            {
+              "type": "text",
+              "id": "yznjt",
+              "fill": "$ink-faint",
+              "content": "我們正在打造的教室",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1.2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "C6jIG",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "dXs60",
+          "name": "Headline",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "pycL6",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "接下來的計畫，",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "W2CLia",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "以及您在其中的角色。",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "cloM1",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "UWAHY",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "我們正在打造的教室。",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 24,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "HuC2j",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 36
+        },
+        {
+          "type": "rectangle",
+          "id": "PXh73",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "e8uGD",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 36
+        },
+        {
+          "type": "frame",
+          "id": "ivuxM",
+          "name": "Grid",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 44,
+          "children": [
+            {
+              "type": "frame",
+              "id": "FRlb2",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HIxWt",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l0Evo",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P4pAwz",
+                          "fill": "$ink-faint",
+                          "content": "01",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "s2TgI0",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "共享專案空間。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "dcXkS",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "教師與學生在同一個寫作環境中，支援即時行內修正與回饋。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "utFsB",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hWy2m",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d76len",
+                          "fill": "$ink-faint",
+                          "content": "02",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "D8ar8j",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "班級管理。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "j3uQv2",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "按班級組織學生，追蹤進度，了解誰即將完成、誰遇到困難。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YHic5",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jPeuX",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hJ3oY",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SHJXq",
+                          "fill": "$ink-faint",
+                          "content": "03",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "e5fDbY",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "研究與驗證工具。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y13sY5",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "來源、引文與參考筆記連結至稿件，當學生要求審閱時，教師可直接查看。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Pxgoy",
+                  "width": "fill_container",
+                  "fill": "#00000000",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R18p7",
+                      "width": "fill_container",
+                      "fill": "#00000000",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BJ2dN",
+                          "fill": "$ink-faint",
+                          "content": "04",
+                          "fontFamily": "$font-sans",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "v5BmTz",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "教育者專用 Beta 閱讀器。",
+                          "fontFamily": "$font-serif",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "o2671u",
+                      "fill": "$ink-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "彙整全班的評論數據，讓您在同儕審閱前即可發現結構性問題。",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-sans",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "NbHDR",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 36
+        },
+        {
+          "type": "rectangle",
+          "id": "SfIjG",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "y0fwz",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 24
+        },
+        {
+          "type": "frame",
+          "id": "AsMjm",
+          "name": "Closing",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "if7bQ",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "加入計畫的教育者將優先獲得這些功能。",
+              "lineHeight": 1.35,
+              "fontFamily": "$font-serif",
+              "fontSize": 26,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "ecWTh",
+              "fill": "$ink-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "在公開發佈前即可使用。今天就讓您的學生使用 Slima，以現有功能開始，待共享教室功能推出後自然銜接。",
+              "lineHeight": 1.45,
+              "fontFamily": "$font-sans",
+              "fontSize": 17,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "plG0p",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "name": "Footer",
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "bijEk",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Documents/Projects/Slima/Slima%20pitch%20decks/logo-slima.png",
+                "mode": "fill"
+              },
+              "width": 106,
+              "height": 28
+            },
+            {
+              "type": "text",
+              "id": "f3mDn",
+              "fill": "$ink-faint",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iwt4e",
+      "x": 4040,
+      "y": 1180,
+      "name": "Slide 6 - 如何加入",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": "$bg-white",
+      "layout": "vertical",
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "A0K33v",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "p9Kul",
+              "fill": "$ink",
+              "content": "05 / 如何加入",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "600",
+              "letterSpacing": 2.5
+            },
+            {
+              "type": "text",
+              "id": "yTIc1",
+              "fill": "$ink-faint",
+              "content": "三個步驟，簡單快速",
+              "fontFamily": "$font-sans",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1.2
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "Z8UwIb",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "S7ojX",
+          "name": "Headline",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "iRvRf",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "如何加入。",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Y8JSos",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "三個步驟，簡單快速。",
+              "lineHeight": 1.05,
+              "fontFamily": "$font-serif",
+              "fontSize": 62,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "GHvN2",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 22
+        },
+        {
+          "type": "text",
+          "id": "Ai8DV",
+          "fill": "$ink-muted",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "從申請到第一位學生加入，只需幾天，而非數週。",
+          "lineHeight": 1.4,
+          "fontFamily": "$font-serif",
+          "fontSize": 24,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "pFxja",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 40
+        },
+        {
+          "type": "rectangle",
+          "id": "Y9PMO",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "rectangle",
+          "id": "mLjZV",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 44
+        },
+        {
+          "type": "frame",
+          "id": "JfHbq",
+          "name": "Steps",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "gap": 72,
+          "children": [
+            {
+              "type": "frame",
+              "id": "dTWcZ",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "toHK1",
+                  "fill": "$ink-faint",
+                  "content": "01",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "ioaSI",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "申請。",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Z8JlKK",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "前往 slima.ai/educators 申請。告訴我們您在哪裡教學、教授什麼科目，並附上您的課程或機構頁面連結。",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L3D4th",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "siRof",
+                  "fill": "$ink-faint",
+                  "content": "02",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "K0LQ7g",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "審核。",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "AW3de",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "我們將在 5 個工作日內完成審核。通過後，您的 Pro 帳戶將升級，教育者檔案也將啟用。",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zhYqD",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ouOzS",
+                  "fill": "$ink-faint",
+                  "content": "03",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-serif",
+                  "fontSize": 72,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "X3GwwI",
+                  "fill": "$ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "通知您的學生。",
+                  "fontFamily": "$font-serif",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "vPpGg",
+                  "fill": "$ink-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "學生註冊時，在教育者欄位輸入您的姓名和電子郵件，折扣即自動套用。",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-sans",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "v9KM7i",
+          "fill": "#00000000",
+          "width": "fill_container",
+          "height": 56
+        },
+        {
+          "type": "rectangle",
+          "id": "qB8wm",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "qTPAb",
+          "name": "CTA",
+          "width": "fill_container",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            44,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SkUTu",
+              "fill": "$ink",
+              "content": "前往 slima.ai/educators 申請。",
+              "lineHeight": 1.1,
+              "fontFamily": "$font-serif",
+              "fontSize": 46,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "iOfCb",
+              "fill": "$ink-muted",
+              "content": "五個工作日內完成審核。學生註冊時輸入您的姓名，折扣即刻生效。",
+              "fontFamily": "$font-sans",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "letterSpacing": 0.5
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "E1Jff",
+          "fill": "$rule",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "u2yZx",
+          "layoutPosition": "absolute",
+          "x": 120,
+          "y": 1000,
+          "name": "Footer",
+          "width": 1680,
+          "height": 50,
+          "fill": "#00000000",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "F6axRj",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Documents/Projects/Slima/Slima%20pitch%20decks/logo-slima.png",
+                "mode": "fill"
+              },
+              "width": 106,
+              "height": 28
+            },
+            {
+              "type": "text",
+              "id": "UImo6",
+              "fill": "$ink-faint",
+              "content": "slima.ai/educators",
+              "fontFamily": "$font-sans",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oDTo1",
+      "x": 6160,
+      "y": 0,
+      "name": "Gaivota 歡迎頁 A4",
+      "clip": true,
+      "width": 794,
+      "height": 1123,
+      "fill": "#fce9e0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        56,
+        64,
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "hQZcC",
+          "name": "Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "phi6H",
+              "name": "Headline",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "歡迎來到",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "300",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "G8nkap",
+              "name": "Headline2",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Gaivota Guest House",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": "800",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "J8dGK",
+          "name": "Intro",
+          "fill": "#9b2b23",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "我們在此為您整理了關於服務的實用資訊。我們將竭盡所能，讓您的住宿舒適、寧靜且難忘。",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "bzVCM",
+          "name": "Divider",
+          "fill": "#9b2b23",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "UAUej",
+          "name": "Columns",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "X9l7U",
+              "name": "Left Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c9bEG8",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "aZEO6",
+                      "fill": "#9b2b23",
+                      "content": "緊急情況",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mwkUU",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "如遇緊急情況，請保持冷靜並撥打全國緊急電話 112。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lCLCR",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I2BC4l",
+                      "fill": "#9b2b23",
+                      "content": "醫療",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nqLFB",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital Divino Espírito Santo — Tel. 296 203 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "i4pNwL",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital CUF Açores — Tel. 296 248 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "F7X9r",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  最近的藥局 — São Roque 或 Fajã de Baixo",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "VSPmd",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y9B1BJ",
+                      "fill": "#9b2b23",
+                      "content": "計程車",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "emwgM",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "叫車中心 — 296 382 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BPKTw",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jwGLb",
+                      "fill": "#9b2b23",
+                      "content": "住宿須知",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y04X9",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "本住宿為全面禁菸場所。請在房間內遵守此規定。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s3kGlF",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "使用冷氣時，請僅使用開／關按鈕並調整溫度，請勿更改運轉模式。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BQECZ",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "住宿全區提供 Wi-Fi，無需密碼即可連線。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bkAsT",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "我們提供海灘及溫泉浴巾租借服務。如有需要，可至櫃台索取，需另付費用。白色毛巾不得帶至戶外使用。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eZixb",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "請勿將濕毛巾或衣物掛在門上，也不要放在電視上。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gXUHN",
+              "name": "Right Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kCIaT",
+                  "name": "PEQUENO-ALMOÇO",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wxLcy",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "早餐",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FCAxA",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  早餐供應時間為 08:00 至 10:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z51fTU",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  不可將早餐帶至戶外食用。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k7iSy6",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  如您的退房時間很早，我們可提前準備外帶餐點。請於前一天至櫃台告知。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "X06tnG",
+                  "name": "LIMPEZA DIÁRIA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hrmgw",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "每日清潔",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U6VDkF",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "週一至週日，10:00 至 14:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oY3HC",
+                  "name": "ZONA EXTERIOR",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GpCa5",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "戶外區域",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wFpVa",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "搭乘電梯並依指標前往。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dj2I3",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "如您是最後離開泳池的人，請將門鎖好。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ylyTF",
+                  "name": "JACUZZI E SAUNA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mmlUQ",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "按摩浴缸與三溫暖",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U3PD5Y",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "開放時間 08:00 至 21:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FwovX",
+                  "name": "PISCINA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EpN05",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "游泳池",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LaQPi",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "開放時間 07:00 至 22:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yrXG3",
+                  "name": "CHECK-OUT",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "c16h7",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "退房",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZVnml",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  房間須於 11:00 前退房。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K6h1P",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  如您的班機在凌晨，離開時請將房卡留在櫃台。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XVTQT",
+          "name": "Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "XYsx5",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "如需任何協助及／或額外資訊，請隨時與我們聯繫。",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "MrCMl",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "u1Us9J",
+                  "fill": "#9b2b23",
+                  "content": "Tel. (+351) 296 302 519",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "EqWsy",
+                  "fill": "#9b2b23",
+                  "content": "手機 (+351) 969 824 881",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "P7vOA6",
+              "fill": "#fce9e000",
+              "width": "fill_container",
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "id": "Kyd4S",
+              "fill": "#9b2b23",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "alFJh",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "祝您住宿愉快！",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "gdieX",
+      "x": 7074,
+      "y": 0,
+      "name": "Gaivota 歡迎頁 A4 中文",
+      "clip": true,
+      "width": 794,
+      "height": 1123,
+      "fill": "#fce9e0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        56,
+        64,
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "TWYMs",
+          "name": "Header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "children": [
+            {
+              "type": "text",
+              "id": "UgZIk",
+              "name": "Headline",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "歡迎來到",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "300",
+              "fontStyle": "italic"
+            },
+            {
+              "type": "text",
+              "id": "MIlYK",
+              "name": "Headline2",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Gaivota Guest House",
+              "lineHeight": 1,
+              "fontFamily": "Inter",
+              "fontSize": 64,
+              "fontWeight": "800",
+              "letterSpacing": -1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "jyE74",
+          "name": "Intro",
+          "fill": "#9b2b23",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "我們在此為您整理了關於服務的實用資訊。我們將竭盡所能，讓您的住宿舒適、寧靜且難忘。",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 13,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "vENmm",
+          "name": "Divider",
+          "fill": "#9b2b23",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "YGeJp",
+          "name": "Columns",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "x4Dly2",
+              "name": "Left Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xs8Af",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E5zMZw",
+                      "fill": "#9b2b23",
+                      "content": "緊急情況",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NGSMU",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "如遇緊急情況，請保持冷靜並撥打全國緊急電話 112。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T0B4M",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iyLeY",
+                      "fill": "#9b2b23",
+                      "content": "醫療",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zh0Hc",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital Divino Espírito Santo — Tel. 296 203 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Dw3Vx",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  Hospital CUF Açores — Tel. 296 248 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qjBj6",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  最近的藥局 — São Roque 或 Fajã de Baixo",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SKRV8",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BBDxo",
+                      "fill": "#9b2b23",
+                      "content": "計程車",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lN4JT",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "叫車中心 — 296 382 000",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "s0Mqaw",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zlKrH",
+                      "fill": "#9b2b23",
+                      "content": "住宿須知",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y0kzk",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "本住宿為全面禁菸場所。請在房間內遵守此規定。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KMFWB",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "使用冷氣時，請僅使用開／關按鈕並調整溫度，請勿更改運轉模式。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K89gWs",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "住宿全區提供 Wi-Fi，無需密碼即可連線。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "E10Bi",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "我們提供海灘及溫泉浴巾租借服務。如有需要，可至櫃台索取，需另付費用。白色毛巾不得帶至戶外使用。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "f39CE",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "請勿將濕毛巾或衣物掛在門上，也不要放在電視上。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u5WTn",
+              "name": "Right Column",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i6hnlc",
+                  "name": "PEQUENO-ALMOÇO",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M0sUs",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "早餐",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nHscD",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  早餐供應時間為 08:00 至 10:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WC8bi",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  不可將早餐帶至戶外食用。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O0zIw",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  如您的退房時間很早，我們可提前準備外帶餐點。請於前一天至櫃台告知。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C8LVg5",
+                  "name": "LIMPEZA DIÁRIA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rXdQD",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "每日清潔",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lQn2c",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "週一至週日，10:00 至 14:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Khv8r",
+                  "name": "ZONA EXTERIOR",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z99LW",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "戶外區域",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TYffN",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "搭乘電梯並依指標前往。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k1J1g",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "如您是最後離開泳池的人，請將門鎖好。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c5Yazv",
+                  "name": "JACUZZI E SAUNA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p0PxkE",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "按摩浴缸與三溫暖",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c2sj9q",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "開放時間 08:00 至 21:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R9hU9",
+                  "name": "PISCINA",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l3CdR",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "游泳池",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YJQMT",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "開放時間 07:00 至 22:00。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yZpma",
+                  "name": "CHECK-OUT",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GT6yZ",
+                      "name": "Section Title",
+                      "fill": "#9b2b23",
+                      "content": "退房",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x7iw3J",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  房間須於 11:00 前退房。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FqpGs",
+                      "fill": "#9b2b23",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "•  如您的班機在凌晨，離開時請將房卡留在櫃台。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WFbf5",
+          "name": "Footer",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            12,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "hBjJ6",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "如需任何協助及／或額外資訊，請隨時與我們聯繫。",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "J07lS",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "soeoK",
+                  "fill": "#9b2b23",
+                  "content": "Tel. (+351) 296 302 519",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "F4IAw",
+                  "fill": "#9b2b23",
+                  "content": "手機 (+351) 969 824 881",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "UMyT6",
+              "fill": "#fce9e000",
+              "width": "fill_container",
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "id": "Pg7eb",
+              "fill": "#9b2b23",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "n3quOm",
+              "fill": "#9b2b23",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "祝您住宿愉快！",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-green": {
+      "type": "color",
+      "value": "#3DBE82"
+    },
+    "accent-orange": {
+      "type": "color",
+      "value": "#F5A623"
+    },
+    "accent-purple": {
+      "type": "color",
+      "value": "#7B5CFF"
+    },
+    "bg-black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "bg-white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "font-sans": {
+      "type": "string",
+      "value": "Source Sans 3"
+    },
+    "font-serif": {
+      "type": "string",
+      "value": "Source Serif 4"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "ink-faint": {
+      "type": "color",
+      "value": "#8A8A8A"
+    },
+    "ink-inverse": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "ink-muted": {
+      "type": "color",
+      "value": "#595959"
+    },
+    "rule": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "rule-soft": {
+      "type": "color",
+      "value": "#E5E5E5"
+    }
+  }
+}
