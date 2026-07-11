@@ -129,7 +129,7 @@ Pull the *method*, retell it plainly, show *how to do it in Slima*. Never quote 
 **B.**
 > Blue eyes in chapter 2. Grey eyes in chapter 19.
 > Slima catches it before a reviewer does.
-> [screen recording: continuity check, green check turning to amber flag]
+> [screen recording: continuity check, green check turning to amber warning]
 
 ### Pillar 5 — Validation without the cost  (the wedge)
 **A.**
