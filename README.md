@@ -16,6 +16,7 @@ slima_truth/
 │   ├── 02-product-marketing-context.md Product/marketing brief
 │   ├── 03-ad-campaign-plan.md          Segments, channels, budget, launch creatives
 │   ├── 04-feature-animations-spec.md   Feature motion specs
+│   ├── 05-communication-direction.md   GO-FORWARD: illustration-only social (old style retired)
 │   ├── logos/                          Vector marks (svg) + raster (png) — footer-only usage
 │   └── source/                         Editable design source (Illustrator)
 │
@@ -28,12 +29,16 @@ slima_truth/
 │
 ├── social-media/
 │   ├── ads/           Ad creatives: ads.html (the builder) + ad-images/ (exported PNGs, 4:5 / 1:1 / 9:16)
-│   └── posts/         Campaign posts by theme (Authors, review, script studio, version branching, TEDx, …)
+│   └── posts/         ILLUSTRATION posts only — editable .ai/.af + exported carousels (1x/)
 │
+├── remotion/         Remotion project sources (slima-ads, slima-remotion) — kept for future reference;
+│                     node_modules + render output excluded (run `npm install` to build)
 ├── decks/            Pitch decks (education deck: PDF + editable .pen)
 ├── materials/        Print collateral (business cards, bookmark)
 └── copy/             Ad copy, headlines, social handles & bio
 ```
+
+**Communication is illustration-only from now on** — see `brand/05-communication-direction.md`. The old mixed style (AI-generated hero images, product-screenshot posts) is retired and removed from this repo.
 
 ## Where to find things fast
 
