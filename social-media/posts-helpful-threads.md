@@ -29,8 +29,8 @@ Structure for reach: the **post is the hook only**. Everything else goes in sepa
 - **Comment 3:** Or skip the wait. Slima reads your book and marks the exact spot readers lose interest. Link in bio.
 
 ## H5 — research system (PhD / nonfiction)
-- **Post:** The reason research takes forever isn't the reading.
-- **Comment 1:** It's that you can never find the quote you need when you need it.
+- **Post:** You know the perfect quote exists. You just can't remember which of your forty files it's in.
+- **Comment 1:** That's where the hours go. You read it once, then lose an afternoon trying to find it again.
 - **Comment 2:** Fix it: one note per source, in your own words, with the page number. The "own words" part matters most. Copy-paste and you'll re-read it later confused.
 - **Comment 3:** Slima keeps every source in one place and remembers them while you write. Link in bio.
 
