@@ -35,9 +35,9 @@ Structure for reach: the **post is the hook only**. Everything else goes in sepa
 - **Comment 3:** Slima keeps every source in one place and remembers them while you write. Link in bio.
 
 ## H6 — character continuity
-- **Post:** Most continuity mistakes come from one small thing.
-- **Comment 1:** A forgotten physical detail. Keep one line per character: what they want, what they're hiding, one detail you'll otherwise lose.
-- **Comment 2:** Pick a detail you'll actually reference: a scar, a habit, the way they take their coffee.
+- **Post:** Your main character had blue eyes in chapter 2. By chapter 19 they're grey.
+- **Comment 1:** These little details drift in every long project. A name spelling shifts, a Tuesday becomes a Thursday, a scar moves cheeks.
+- **Comment 2:** Keep one line per character: what they want, what they're hiding, one physical detail you'll otherwise lose. Check it before you publish.
 - **Comment 3:** Slima remembers every character across the whole book and tells you when a detail changes. Link in bio.
 
 ## H7 — when to write
