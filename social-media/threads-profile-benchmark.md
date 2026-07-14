@@ -23,7 +23,7 @@ Pulled directly from Threads to benchmark Slima's profile. Use to keep the profi
 - Use the category-claim archetype (Notion/Grammarly). Slima's differentiator is memory, not "AI" — a sharper claim than Grammarly's generic "AI writing partner", and it obeys the no-leading-with-AI rule.
 - No social proof yet, so the bio line must carry the punch. "Remembers your whole book" does.
 - Two-sentence structure like Grammarly: claim, then the honest-read beat.
-- Link: clean app.slima.ai now (like notion.com). Upgrade to a Figma-style multi-link hub later (Start free / For researchers / etc.).
+- Link: clean slima.ai now (like notion.com). Upgrade to a Figma-style multi-link hub later (Start free / For researchers / etc.).
 - Content: mix a few relatable "writer life" posts in with the helpful tips — that is what earns engagement on Grammarly/Figma.
 
 **Chosen bio (ZH):** 記得你整本書的寫作空間。出版前，先給你一份誠實的試讀。
