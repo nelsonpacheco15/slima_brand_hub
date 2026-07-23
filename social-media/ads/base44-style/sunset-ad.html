@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { background:#000; }
+  :root{
+    --warmwhite:#fff7ec;
+    --indigo:#6366f1;
+  }
+  .ad{
+    position:relative;
+    width:1200px; height:628px;
+    overflow:hidden;
+    font-family:'IBM Plex Serif', Georgia, serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* sunset sky */
+  .sky{
+    position:absolute; inset:0;
+    background:
+      radial-gradient(120% 80% at 50% 118%, rgba(255,224,150,.95) 0%, rgba(255,183,108,.55) 16%, rgba(255,150,90,.15) 34%, transparent 52%),
+      linear-gradient(180deg,
+        #201640 0%,
+        #33235c 20%,
+        #5d3670 38%,
+        #94456e 54%,
+        #c65a5f 68%,
+        #ec7f4b 82%,
+        #f6bd6b 100%);
+  }
+  /* soft sun disc near the horizon */
+  .sun{
+    position:absolute; left:50%; bottom:-70px; transform:translateX(-50%);
+    width:280px; height:280px; border-radius:50%;
+    background:radial-gradient(circle, rgba(255,246,224,.95) 0%, rgba(255,214,150,.75) 42%, rgba(255,190,120,0) 70%);
+    filter:blur(2px);
+  }
+  /* horizon land silhouette */
+  .land{
+    position:absolute; left:0; right:0; bottom:0; height:90px;
+    background:linear-gradient(180deg, rgba(30,18,44,0) 0%, rgba(28,16,40,.55) 45%, rgba(22,12,34,.9) 100%);
+  }
+  /* darkening for text legibility, top-weighted */
+  .scrim{
+    position:absolute; inset:0;
+    background:
+      radial-gradient(90% 70% at 50% 34%, rgba(18,10,34,.42) 0%, transparent 60%),
+      linear-gradient(180deg, rgba(16,10,32,.5) 0%, rgba(16,10,32,.12) 40%, transparent 62%);
+  }
+  /* faint stars, upper sky */
+  .star{ position:absolute; width:2px; height:2px; border-radius:50%; background:#fff; opacity:.55; }
+
+  .wrap{
+    position:absolute; inset:0;
+    display:flex; flex-direction:column; align-items:center;
+    padding:62px 90px 0;
+    text-align:center;
+  }
+  h1{
+    color:var(--warmwhite);
+    font-weight:400;
+    font-size:50px;
+    line-height:1.2;
+    letter-spacing:-.01em;
+    max-width:920px;
+    text-wrap:balance;
+    text-shadow:0 2px 26px rgba(20,8,30,.42);
+  }
+  h1 .em{ font-style:italic; }
+  .act{
+    margin-top:26px;
+    color:#fffdf9;
+    font-weight:400;
+    font-size:50px;
+    line-height:1.2;
+    letter-spacing:-.01em;
+    text-shadow:0 2px 26px rgba(20,8,30,.42);
+  }
+  .act .slima{ font-style:italic; }
+
+  .foot{
+    position:absolute; left:0; right:0; bottom:34px;
+    display:flex; align-items:center; justify-content:center; gap:12px;
+    color:var(--warmwhite);
+  }
+  .foot .mark{ display:block; }
+  .foot .name{ font-family:'IBM Plex Serif',serif; font-size:26px; letter-spacing:.005em; }
+  .foot .url{ font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:17px; letter-spacing:.06em; opacity:.82; margin-left:6px; text-transform:lowercase; }
+  .foot .dot{ opacity:.5; margin:0 2px; }
+</style>
+</head>
+<body>
+  <section class="ad">
+    <div class="sky"></div>
+    <div class="sun"></div>
+    <div class="scrim"></div>
+    <div class="land"></div>
+
+    <!-- scattered faint stars -->
+    <div class="star" style="left:12%; top:9%"></div>
+    <div class="star" style="left:22%; top:16%; opacity:.4"></div>
+    <div class="star" style="left:34%; top:7%; opacity:.5"></div>
+    <div class="star" style="left:68%; top:12%; opacity:.45"></div>
+    <div class="star" style="left:81%; top:8%"></div>
+    <div class="star" style="left:88%; top:18%; opacity:.4"></div>
+    <div class="star" style="left:52%; top:6%; opacity:.35"></div>
+
+    <div class="wrap">
+      <h1>Don't let your book stay stuck in your <span class="em">notes app</span>.</h1>
+      <div class="act">Write it in <span class="slima">Slima</span> and finish it this time.</div>
+    </div>
+
+    <div class="foot">
+      <svg class="mark" width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 1.5 L13.4 9.1 L19.8 4.8 L15.2 11 L22.5 12 L15.2 13 L19.8 19.2 L13.4 14.9 L12 22.5 L10.6 14.9 L4.2 19.2 L8.8 13 L1.5 12 L8.8 11 L4.2 4.8 L10.6 9.1 Z" fill="#fff7ec"/>
+      </svg>
+      <span class="name">Slima</span>
+      <span class="dot">·</span>
+      <span class="url">slima.ai</span>
+    </div>
+  </section>
+</body>
+</html>
