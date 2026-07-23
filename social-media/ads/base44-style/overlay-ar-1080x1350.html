@@ -1,0 +1,77 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { background:transparent; }
+  :root{ --warmwhite:#fff7ec; }
+  .ad{
+    position:relative; width:1080px; height:1350px; overflow:hidden;
+    direction:rtl;
+    font-family:'Amiri','Geeza Pro',serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .scrim{
+    position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(14,8,26,.64) 0%, rgba(14,8,26,.42) 27%, rgba(14,8,26,.12) 45%, rgba(14,8,26,0) 60%);
+  }
+  .footscrim{
+    position:absolute; left:0; right:0; bottom:0; height:230px;
+    background:linear-gradient(180deg, rgba(14,8,26,0) 0%, rgba(14,8,26,.55) 100%);
+  }
+  .wrap{
+    position:absolute; left:0; right:0; top:0;
+    display:flex; flex-direction:column; align-items:center;
+    padding:118px 90px 0; text-align:center;
+  }
+  h1{
+    color:var(--warmwhite);
+    font-weight:400;
+    font-size:82px;
+    line-height:1.42;
+    max-width:920px;
+    text-shadow:0 2px 30px rgba(12,6,22,.5);
+  }
+  .act{
+    margin-top:46px;
+    color:#fffdf9;
+    font-weight:400;
+    font-size:52px;
+    line-height:1.5;
+    max-width:900px;
+    text-shadow:0 2px 30px rgba(12,6,22,.5);
+  }
+  .act .slima{ font-family:'IBM Plex Serif',serif; font-style:italic; }
+
+  .foot{
+    position:absolute; left:0; right:0; bottom:56px;
+    display:flex; align-items:center; justify-content:center; gap:18px;
+    direction:ltr;
+  }
+  .foot .logo{ height:46px; display:block; }
+  .foot .url{ font-family:'Inter','Helvetica Neue',Arial,sans-serif; font-size:22px; letter-spacing:.06em; opacity:.85; color:var(--warmwhite); }
+  .foot .dot{ opacity:.5; color:var(--warmwhite); }
+</style>
+</head>
+<body>
+  <section class="ad">
+    <div class="scrim"></div>
+    <div class="footscrim"></div>
+
+    <div class="wrap">
+      <h1>في داخلك كتاب.<br>حان وقت أن تُنهيه.</h1>
+      <div class="act"><span class="slima">Slima</span> يساعدك على كتابته حتى النهاية.</div>
+    </div>
+
+    <div class="foot">
+      <img class="logo" src="slima-logo-white.svg" alt="Slima">
+      <span class="dot">&middot;</span>
+      <span class="url">slima.ai</span>
+    </div>
+  </section>
+</body>
+</html>
